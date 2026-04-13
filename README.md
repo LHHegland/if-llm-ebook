@@ -16,18 +16,17 @@
 - [Configuration](#configuration)
 - [Usage](#usage)
 - [IF-LLM eBook Project Content](#if-llm-ebook-project-content)
+  - [Assumptions](#assumptions)
+  - [Purpose and Objectives](!!!TODO!!!)
+  - [Timeline of Emerging Technology, Knowledge, and Tools](#timeline-of-emerging-technology-knowledge-and-tools)
   - [What is an Instruction-Following Large Language Model (IF-LLM)?](#what-is-an-instruction-following-large-language-model-if-llm)
-  - [Foundations](#foundations)
-    - [Assumptions](#assumptions)
-    - [Decision-Making Information Quality Criteria (Priorities)](#decision-making-information-quality-criteria-priorities)
-    - [Common IF-LLMs](#common-if-llms)
-    - [Common IF-LLM Elements: Instructions and Context](#common-if-llm-elements-instructions-context-and-tools)
-    - [Common IF-LLM Failure Modes](#common-if-llm-failure-modes)
-    - [Common IF-LLM Failure Mitigation Strategies](#common-if-llm-failure-mitigation-strategies)
-  - [Purpose](#purpose)
-  - [Objectives](#objectives)
-  - [Governance, Policies, Rules](#governance-policies-and-rules)
-  - [Prompt Templates, Orchestrators, Configurations](#prompt-templates-orchestrators-configurations)
+  - [Fundamental Elements](!!!TODO!!!)
+  - [Common IF-LLM Failure Modes](#common-if-llm-failure-modes)
+  - [Decision-Making Information Quality Criteria (Priorities)](#decision-making-information-quality-criteria-priorities)
+  - [Common IF-LLM Failure Mitigation Strategies](#common-if-llm-failure-mitigation-strategies)
+  - [Core Components for Quick, Easy, and Reasonable Results](!!!TODO!!!)
+  - [Comprehensive Architecture for Critical Needs](!!!TODO!!!)
+  - [Introduction to the IF-LLM-BO Project](!!!TODO!!!)
 - [Appendices](#appendices)
 - [Roadmap](#roadmap)
 - [Authors](#authors)
@@ -84,77 +83,184 @@ NONE — No configuration is required.
 
 ## **IF-LLM eBook Project Content**
 
-The following sections contain notes related to the Instruction-Following Large Language Model Behavior Ontology (IF-LLM-BO) project:
-- [Foundations](#foundations)
+The following sections contain the Instruction-Following Large Language Model (IF-LLM) eBook:
   - [Assumptions](#assumptions)
-  - [Decision-Making Information Quality Criteria (Priorities)](#decision-making-information-quality-criteria-priorities)
-  - [Common IF-LLMs](#common-if-llms)
-  - [Common IF-LLM Elements: Instructions and Context](#common-if-llm-elements-instructions-context-and-tools)
+  - [Purpose and Objectives](!!!TODO!!!)
+  - [Timeline of Emerging Technology, Knowledge, and Tools](#timeline-of-emerging-technology-knowledge-and-tools)
+  - [What is an Instruction-Following Large Language Model (IF-LLM)?](#what-is-an-instruction-following-large-language-model-if-llm)
+  - [Fundamental Elements](!!!TODO!!!)
   - [Common IF-LLM Failure Modes](#common-if-llm-failure-modes)
+  - [Decision-Making Information Quality Criteria (Priorities)](#decision-making-information-quality-criteria-priorities)
   - [Common IF-LLM Failure Mitigation Strategies](#common-if-llm-failure-mitigation-strategies)
-- [Purpose](#purpose)
-- [Objectives](#objectives)
-- [Governance, Policies, Rules](#governance-policies-and-rules)
-- [Prompt Templates, Orchestrators, Configurations](#prompt-templates-orchestrators-configurations)
+  - [Core Components for Quick, Easy, and Reasonable Results](!!!TODO!!!)
+  - [Comprehensive Architecture for Critical Needs](!!!TODO!!!)
+  - [Introduction to the IF-LLM-BO Project](!!!TODO!!!)
 
 
 ---
 
-### Foundations
+### Assumptions
 
-The following sections describe the foundations grounding the IF-LLM-BO project:
-- [Assumptions](#assumptions)
-- [Decision-Making Information Quality Criteria (Priorities)](#decision-making-information-quality-criteria-priorities)
-- [Common IF-LLMs](#common-if-llms)
-- [Common IF-LLM Elements: Instructions and Context](#common-if-llm-elements-instructions-context-and-tools)
-- [Common IF-LLM Failure Modes](#common-if-llm-failure-modes)
-- [Common IF-LLM Failure Mitigation Strategies](#common-if-llm-failure-mitigation-strategies)
+TO DO: Review for sufficiency / gaps. Validate individual premises. Verify logical sufficiency, validity, and soundness.
+
+Artificial intelligence (AI) instruction-following large language models (IF-LLMs) have [very rapidly emerged in recent years](#timeline-of-emerging-technology-knowledge-and-tools) throughout the general public.
+
+IF-LLMs produce results that are likely considered when making future decisions.
+
+Therefore, IF-LLM results should reasonably satisfy [decision-making information quality criteria](#decision-making-information-quality-criteria-priorities).
+
+Significant misinformation about IF-LLMs (e.g. "hacks", rumors) has circulated through social media and the Internet in recent years.
+
+As a result,  many people in the general public (i.e. not researchers or technology academics) experience difficulty discovering and identifying information about artificial intelligence (AI) instruction-following large language models (IF-LLMs) that is relevant, timely, accurate, reliable, sufficient, and traceable (i.e., satisfies [decision-making information quality criteria](#decision-making-information-quality-criteria-priorities)).
+
+As a result, many IF-LLM users may not understand or use IF-LLMs properly or efficiently to obtain results satisfying their unique priorities, especially [decision-making information quality criteria](#decision-making-information-quality-criteria-priorities).
+
+As a result, many IF-LLM users may unknowingly or begrudgingly experience and transfer greater risk of consequences of inadequate information resulting from [common IF-LLM failures](#common-if-llm-failure-modes).
+
+However, this risk can be greatly reduced by using [various failure mode avoidance strategies](#common-if-llm-failure-mitigation-strategies), which often require better understanding how IF-LLMs work, which user input is helpful, how user input can be better organized to nurture more desirable results, plus how other prompt scaffolding frameworks can improve user efficiency and result quality.
+
+
+--- TODO: Review and cherry-pick applicable points ---
+
+This appendix contains detailed information about the underlying assumptions for the Instruction-Following Large Language Model Behavior Ontology (IF-LLM-BO) project along with authoritative sources.
+
+Instruction-Following Large Language Models (IF-LLMs) produce results that are likely considered when making decisions. 
+
+Formal priorities are sometimes preferable to informal judgment, especially in high-risk or repeatable workflows. Explicit, ordered priorities improve decision quality during tradeoffs, regardless of the process used (i.e. whether using an IF-LLM or not). Therefore, IF-LLM processing and results for decision-making purposes should use [well-defined quality standards](#decision-making-information-quality-criteria-priorities).
+
+IF-LLMs are complex adaptive systems.
+
+Even with identical instructions, IF-LLM outputs may vary due to:
+- Model capability differences
+- Instruction formulation quality
+- Context window constraints
+- System-level limitations
+
+IF-LLM systems do not guarantee perfect determinism. Design goals emphasize **risk reduction and consistency improvement**, not absolute predictability. In other words, it is impossible to eliminate the risk of experiencing undesirable results. However, it is possible to reduce the risks of experiencing undesirable results.
+
+Instructional alignment (i.e. known and controllable for many developers and users) is reflected in **observable output behavior**, not internal model state (i.e. unknown and uncontrollable for most developers and users). 
+
+IF-LLM instructions and contextual information **materially influence** how inputs are interpreted and how outputs are generated.
+
+IF-LLM behavioral correctness is evaluated based on outputs relative to stated instructions, priorities, and constraints.
+
+Instruction-following behavior must be evaluated against stated objectives and priorities. Evaluation criteria must be explicit and observable.
+
+Evaluation results are expected to inform:
+- Refinement of instructions
+- Updates to knowledge entries
+- Adjustments to configurations
+
+Continuous improvement is an assumption, not an optional enhancement.
+
+There is credible and sufficient evidence that Instruction-Following Large Language Models (IF-LLMs) produce a finite number of [common failure modes](#common-if-llm-failure-modes).
+
+Explicit instructions outperform implicit expectations in reducing risks of experiencing common failure modes.
+
+The likelihood for IF-LLM behavioral correctness can be improved and risks of encountering common failure modes can be reduced by incorporating various policies and contextual information into explicit IF-LLM instructions (i.e., [Common IF-LLM Failure Mitigation Strategies](#common-if-llm-failure-mitigation-strategies)).
+
+Instructions and context may be provided by:
+- System architects
+- Solution developers
+- End users
+
+Instruction and context contributors may have different objectives, priorities, and constraints.
+
+IF-LLMs process instructions and context using a **strict authority hierarchy**, where higher-authority instructions override lower-authority inputs (i.e., [Instruction and Context Hierarchy](#instruction-and-context-authority-hierarchy)).
+
+System-level processing policies are authoritative and should not be silently reinterpreted or weakenedto preserve auditability.
+
+Conflicts between instructions must be resolved deterministically according to that hierarchy. Undisclosed or silent overrides reduce reliability and must be avoided.
+
+Human beings are responsible for the following activities related to IF-LLM instructions and context:
+- Creating
+- Reviewing
+- Updating (Maintaining)
+- Deleting (Retiring)
+
+[Instructions and contextual elements](#prompt-anatomy) can be stored as **discrete, reusable [knowledge entries](#knowledge-files)**. Knowledge entries can be grouped into **[knowledge files](#knowledge-files)** to improve organization, reuse, and governance.
+
+Knowledge files provided to the model override general model knowledge but do not override system- or developer-level instructions.
+
+Stable identifiers (IDs, tags, handles) for knowledge entries improve traceability, reuse, and auditability over time.
+
+Human-readable structure is preferred over opaque or auto-generated schemas for clarity.
+
+Instructions and contextual elements can be stored as **discrete, reusable [prompt templates](#prompt-templates)**, also stored in a dedicated knowledge file.
+
+Specific combinations of instructions and contextual elements can be stored as **discrete, reusable [configurations](#configurations)**, stored in a dedicated knowledge file too.
+
+Specific arrangements of configurations can be stored as **discrete, reusable [orchestrators](#orchestrators)**, stored in a dedicated knowledge file as well.
+
+Missing, outdated, or uncertain knowledge should be disclosed rather than inferred to ensure auditability.
+
+Refusals, limitations, and uncertainty disclosures are valid and expected outcomes for most IF-LLMs.
+
+When conflicts arise, safety and correctness often override completeness or convenience for most IF-LLMs.
+
+Using a [semi-formal ontology](#background) to establish system-level policies, contextual defaults, and offer reusable, standardized instructions for common use cases can help improve behavioral correctness and reduce risks of encountering common failure modes.
+
+The IF-LLM-BO is a **practical, lightweight semantic scaffolding system**, not a formally complete ontology.
+
+Human usability and behavioral guidance take precedence over theoretical rigor.
+
+The ontology should:
+- Minimize unnecessary structure
+- Enable incremental improvement
+- Surface uncertainty early
+- Support small-batch testing and refinement
+ 
+Using an ontology assumes **active governance**, not self-correcting automation.
+
+ Human beings are fallible and may not be consistent.
+
+The effectiveness of any ontology depends on **consistent and disciplined use** by humans, including [governance policies](#policies-governance).
+
+Human beings must take responsibility for creating, reviewing, updating, and deleting [governance policies](#policies-governance). IF-LLM tools should assist human beings to create, review, update, and delete knowledge entries related to knowledge file policies, knowledge entry policies, processing policies, and other knowledge entries while referring to governance policies. This can to improve clarity, completeness, consistency, which ultimately improves behavioral correctness and auditability.
+
+Bypassing or inconsistently applying the ontology reduces reliability but does not invalidate the design.
+
+--- END ASSUMPTIONS ---
+
+--- TODO: Review challenges and solutions; cherry pick applicable items. Summarize in Purpose and Objectives to make the case for why a user, solution developer, or system architect unfamiliar with IF-LLMs would benefit from this content ---
+
+#### Current Challenges and Proposed Solutions
+
+As of March 2026, [popular instruction-following large language models (IF-LLMs)](#common-if-llms) have demonstrated [various vulnerabilities](#common-if-llm-failure-modes), especially when producing results intended to satisfy [commonly-accepted decision-making information quality criteria](#decision-making-information-quality-criteria-priorities). After [exploring the circumstances and challenges](#assumptions), it seems that more intentionally and consistently using various governance, information policies, processing rules, **plus** reusable instructions and context (information) for common objectives helps reduce the likelihood of undesirable results. 
+
+This eBook explains what IF-LLMs are and how to use them more effectively. The IF-LLM Behavior Ontology (IF-LLM-BO) offers a method of organizing IF-LLM Instruction & Context Architecture (IF-LLM-ICA) elements to align with commonly-accepted best practices as of March 2026.  Together, this available knowledge and tools can help reduce the likelihood of undesirable results while simultaneously increasing the efficiency of system architects, solution developers, and users.
+
+Failure modes and best practices will continue to rapidly evolve over time as IF-LLMs emerge from their infancy, more experience is gained, and models — and their use by the general public — are further researched and refined. This evolution will require routine testing, evaluation, and periodic updates to instructions and context. Also, system architects, solution developers, and power users will begin to standardize and organize policies, instructions, and context (relevant background information) in data files to more efficiently and consistently accomplish more complex objectives while also improving auditability, scalability, scope, and efficiency.
+
+
+--- END CURRENT CHALLENGES + PROPOSED SOLUTIONS ---
+
+---
+
+### Purpose and Objectives
+
+TODO
+
+
+#### Purpose
+
+TODO
 
 
 ---
 
-#### Assumptions
+#### Objectives
 
-TO DO: Create Summary
+TODO
 
-Below is a summary of the underlying assumptions for the Instruction-Following Large Language Model Behavior Ontology (IF-LLM-BO) project.  More detailed information about these assumptions can be found in the [Appendix: Assumptions](#appendix-assumptions).
-
-There is credible and sufficient evidence that instruction-following large language models (IF-LLMs) produce a finite number of [common failure modes](#common-if-llm-failure-modes).
-
-IF-LLMs produce results that are likely considered when making future decisions. Therefore, the results they produce should meet [well-defined quality standards](#decision-making-information-quality-criteria-priorities).
 
 
 ---
-
-
-#### Decision-Making Information Quality Criteria (Priorities)
-
-[Instruction-following large language models (IF-LLMs)](#common-if-llms) are often used to generate information that can influence decisions impacting people and other systems. Because of this, the responses they produce should meet clear and well-defined quality standards. Therefore, IF-LLMs should prioritize these quality standards according to their ranked importance. Any trade-offs should be disclosed to users. Meaning, the [instructions and context guiding IF-LLMs](#common-if-llm-elements-instructions-context-and-tools) — especially the system-level policies — should reflect and reinforce these priorities.
-
-The priorities listed below identify the key criteria that information should have in order to reliably support decision-making. Each definition answers a practical question: *"What does this mean for everyday decision-making?"*
-
- 1. **Auditability:** source of information, how information was changed, and who handled information can be identified.
- 2. **Relevance:** information matters for the decision being made and helps improve that decision. It connects directly to the question, problem, or goal at hand. Relevant information helps you decide; irrelevant information does not—even if it is interesting or true.
- 3. **Timeliness:** information is up to date and available when it is needed. Information that is too old or arrives too late loses its usefulness. Good information comes at the right time—not after the decision is already over.
- 4. **Accuracy:** information is correct and matches reality. Facts are right, numbers are right, and statements reflect what is actually true. If something is accurate, you can trust that it isn’t wrong, misleading, or made up.
- 5. **Reliability:** information can be trusted to be dependable, honest, and consistent over time. Reliable information is not biased or misleading, comes from a credible source, and holds up when checked or used again.
- 6. **Sufficiency:** there is enough information—no important pieces are missing, and there is not unnecessary overload. The amount and level of detail fit the decision. You have what you need to decide, without being overwhelmed or left guessing.
- 7. **Compliance:** information follows required laws, rules, standards, and policies. It meets formal obligations and expectations. Compliant information plays by the rules it is supposed to follow.
- 8. **Clarity:** information is easy to understand, clearly explained, and not confusing. The meaning is obvious without special knowledge or extra interpretation. Clear information makes sense the first time you read or hear it.
- 9. **Fairness:** information is unbiased, balanced, and considers different perspectives. It is not slanted to favor one group, outcome, or opinion unfairly. Fair information doesn’t “stack the deck” or leave out voices that matter.
-10. **Consistency:** information does not contradict itself and follows the same logic, terms, and structure throughout. Similar things are treated the same way. Consistent information doesn’t change its story halfway through.
-11. **Efficiency:** information can be accessed and used with reasonable effort, time, and cost. People can get what they need without unnecessary barriers. Efficient information is easy to find and use without wasting time or energy.
-12. **Security:** information is protected from unauthorized access, misuse, or harm. Only the right people can see or change it. Secure information is kept safe from people who should not have it.
-13. **Recoverability:** information can be restored if it is lost, damaged, or disrupted. Systems can bounce back after problems. If something goes wrong, the information isn’t gone forever.
-14. **Flexibility:** information can be used in more than one situation or adapted to different needs without losing meaning. Flexible information still works when the situation changes slightly.
-
-
-More detailed information about these criteria, along with authoritative sources, can be found in the [Appendix: Information Quality Criteria](#appendix-decision-making-information-quality-criteria-priorities-with-definitions-and-sources).
-
 
 ### Timeline of Emerging Technology, Knowledge, and Tools
 
 Before 2022, large language models were primarily used by developers, startups, and researchers. LLMs were primarily accessed via APIs or research demos. Even though some LLMs were powerful, they **did not trigger broad public adoption** because they generally lacked a simple user-interface and strong alignment for following instructions naturally. So awareness was **niche + technical**, not societal.
+
 
 #### The “ChatGPT moment”
 
@@ -172,9 +278,23 @@ Key facts:
 
 This is when **public awareness exploded globally**.
 
+
 #### Emergence of Instruction-Following Large Language Models (IF-LLMs)
 
 The sections below present a timeline of the emergence of **instruction-following large language models (IF-LLMs)** (not just announced or in research, but usable by the general public in some form) up through March 2026.
+
+As of March 2026, the following are commonly used information-following large language models (IF-LLMs).  More detailed information with authoritative sources appear in the [Appendix > IF-LLM Information > Commonly Used IF-LLMs](#commonly-used-if-llms).
+
+- **[OpenAI ChatGPT](https://chat.openai.com/)**
+- **[Google Gemini](https://gemini.google.com/)**
+- **[Perplexity AI](https://www.perplexity.ai/)**
+- **[Microsoft Copilot](https://copilot.microsoft.com/)**
+- **[Claude (Anthropic)](https://claude.ai/)**
+- **[Meta AI (Meta Platforms)](https://www.meta.ai/)**
+- **[Grok (xAI)](https://grok.x.ai/)**
+
+
+---
 
 ##### Key Pattern
 
@@ -342,15 +462,6 @@ In other words: **LLMs became “real” to the world not when they got smart en
 [5]: https://js-interactive.com/chatgpt-trends-report-statistics/?utm_source=chatgpt.com "ChatGPT Statistics & Trends (2022–2025)"
 [6]: https://arxiv.org/abs/2502.09747?utm_source=chatgpt.com "The Widespread Adoption of Large Language Model-Assisted Writing Across Society"
 
----
-
-### Current Challenges and Proposed Solutions
-
-As of March 2026, [popular instruction-following large language models (IF-LLMs)](#common-if-llms) have demonstrated [various vulnerabilities](#common-if-llm-failure-modes), especially when producing results intended to satisfy [commonly-accepted decision-making information quality criteria](#decision-making-information-quality-criteria-priorities). After [exploring the circumstances and challenges](#assumptions), it seems that more intentionally and consistently using various governance, information policies, processing rules, **plus** reusable instructions and context (information) for common objectives helps reduce the likelihood of undesirable results. 
-
-This eBook explains what IF-LLMs are and how to use them more effectively. The IF-LLM Behavior Ontology (IF-LLM-BO) offers a method of organizing IF-LLM Instruction & Context Architecture (IF-LLM-ICA) elements to align with commonly-accepted best practices as of March 2026.  Together, this available knowledge and tools can help reduce the likelihood of undesirable results while simultaneously increasing the efficiency of system architects, solution developers, and users.
-
-Failure modes and best practices will continue to rapidly evolve over time as IF-LLMs emerge from their infancy, more experience is gained, and models — and their use by the general public — are further researched and refined. This evolution will require routine testing, evaluation, and periodic updates to instructions and context. Also, system architects, solution developers, and power users will begin to standardize and organize policies, instructions, and context (relevant background information) in data files to more efficiently and consistently accomplish more complex objectives while also improving auditability, scalability, scope, and efficiency.
 
 
 ---
@@ -445,24 +556,12 @@ Even though IF-LLMs are powerful:
 
 ---
 
----
+### Fundamental IF-LLM Elements: Instructions, Context, and Tools
 
-#### Common IF-LLMs
 
-As of March 2026, the following are commonly used information-following large language models (IF-LLMs).  More detailed information with authoritative sources appear in the [Appendix > IF-LLM Information > Commonly Used IF-LLMs](#commonly-used-if-llms).
-
-- **[OpenAI ChatGPT](https://chat.openai.com/)**
-- **[Google Gemini](https://gemini.google.com/)**
-- **[Perplexity AI](https://www.perplexity.ai/)**
-- **[Microsoft Copilot](https://copilot.microsoft.com/)**
-- **[Claude (Anthropic)](https://claude.ai/)**
-- **[Meta AI (Meta Platforms)](https://www.meta.ai/)**
-- **[Grok (xAI)](https://grok.x.ai/)**
 
 
 ---
-
-#### Common IF-LLM Elements: Instructions, Context, and Tools
 
 This and the following sections briefly describe the most important elements of instruction-following large language models (IF-LLMs).
 
@@ -486,7 +585,7 @@ More detailed information is available in the [Appendices > IF-LLM Information >
 
 ---
 
-##### Instruction-Following Large Language Model (IF-LLM)
+#### Instruction-Following Large Language Model (IF-LLM)
 
 **Description:** A software system (e.g., [common IF-LLMs](#common-if-llms)) designed to interpret and execute instructions provided in prompts.
 
@@ -501,7 +600,7 @@ More detailed information is available in the [Appendices > IF-LLM Information >
 
 ---
 
-##### **Prompt**
+#### **Prompt**
 
 **Description:** The set of instructions, context, and constraints given to the IF-LLM.
 
@@ -516,7 +615,7 @@ More detailed information is available in the [Appendices > IF-LLM Information >
 
 ---
 
-##### **Knowledge Files**
+#### **Knowledge Files**
 
 **Description:** External or provided documents/data that the IF-LLM can use as instructions or context (e.g., an uploaded `system-policies-processing.md` with instructions and context related to system-level processing policies provided by the system architect).
 
@@ -534,7 +633,7 @@ More detailed information is available in the [Appendices > IF-LLM Information >
 
 ---
 
-##### **Tools**
+#### **Tools**
 
 **Description:** External capabilities the IF-LLM can use to extend functionality (e.g., search, calculations, file access).
 
@@ -551,7 +650,9 @@ More detailed information is available in the [Appendices > IF-LLM Information >
 
 ---
 
-#### Common IF-LLM Failure Modes
+### Common IF-LLM Failure Modes
+
+TODO: Expand with brief description and 3 to 5 examples 
 
 Below is a high-level summary of the common instruction-following large language model (IF-LLM) failure modes (as of March 2026).  More detailed information about these failure modes, along with examples and authoritative sources, can be found in the [Appendix: Common IF-LLM Failure Modes with Examples and Sources](#common-failure-modes).
 
@@ -568,435 +669,50 @@ Below is a high-level summary of the common instruction-following large language
 
 ---
 
+### Decision-Making Information Quality Criteria (Priorities)
 
-#### Common IF-LLM Failure Mitigation Strategies
+[Instruction-following large language models (IF-LLMs)](#common-if-llms) are often used to generate information that can influence decisions impacting people and other systems. Because of this, the responses they produce should meet clear and well-defined quality standards. Therefore, IF-LLMs should prioritize these quality standards according to their ranked importance. Any trade-offs should be disclosed to users. Meaning, the [instructions and context guiding IF-LLMs](#common-if-llm-elements-instructions-context-and-tools) — especially the system-level policies — should reflect and reinforce these priorities.
 
-TODO (Governance, Instructions, and Context)
+The priorities listed below identify the key criteria that information should have in order to reliably support decision-making. Each definition answers a practical question: *"What does this mean for everyday decision-making?"*
 
-
----
-
-
-### Purpose
-
-The **Instruction-Following Large Language Model Behavior Ontology (IF-LLM-BO)** is a lightweight semantic scaffolding system for organizing [instruction-following large language model (IF-LLM) elements](#common-if-llm-elements-instructions-context-and-tools) to guide [IF-LLMs](#common-if-llms) toward [higher-quality responses](#decision-making-information-quality-criteria-priorities). IF-LLM-BO emphasizes human-readable organization, stable identifiers, and explicit decision guidance over formal ontology rigor, enabling consistent model behavior across objectives, workflows, contexts, and audiences. It includes [Governance, Policies, and Rules](#governance-policies-and-rules) plus [Prompt Templates, Orchestrators, and Configurations](#prompt-templates-orchestrators-configurations) to most efficiently fulfill its purpose.
-
-
----
-
-### Objectives
-
-First, the IF-LLM-BO project intends to build a lightweight semantic scaffolding system for structuring instructions and context for instruction-following large language models (IF-LLMs) that accomplishes the following: 
-  - emphasizes human-readable organization, stable identifiers, and explicit decision guidance over formal ontology rigor, enabling consistent model behavior across objectives, workflows, contexts, and audiences; a practical, yet not perfect, ontology
-  - empowers [human governance](#system-architect-and-solution-developer-governance-human-governance) (i.e., for system architects and solution developers)
-  - reduces IF-LLM failure risks through validated, stored, and reusable IF-LLM [knowledge policies (i.e., validated, stored, and reusable instructions and context](#knowledge-file-and-knowledge-entry-policies-stored-context-policies) and [processing rules (i.e., validated, stored, and reusable instructions](#processing-policies-stored-instruction-rules).
-  - stores validated, reusable prompt elements, configurations, and orchestrators in structured knowledge entries and files
-  - empowers greater user efficiency through easily reusable templates combining relevant user inputs with various validated, stored, and reusable IF-LLM elements (e.g., prompt templates, configurations, orchestrators)
-  - uses the process below:
-    1. **Identify Foundations**
-    2. **Identify Assumptions**
-    3. **Identify Evidence-Based Knowledge**
-    4. **Organize Resources** (e.g., policies, prompt templates, knowledge entries, configurations, orchestrators)
-    5. **Update Documentation**
-
-More detailed information is available in the following sections:
-- [Appendix: IF-LLM-BO Project Journey](#appendix-if-llm-bo-project-journey)
-  - [Expanded Objectives](#expanded-objectives)
-  - [Activity Iterations](#activity-iterations)
-- [Roadmap](#roadmap)
+ 1. **Auditability:** source of information, how information was changed, and who handled information can be identified.
+ 2. **Relevance:** information matters for the decision being made and helps improve that decision. It connects directly to the question, problem, or goal at hand. Relevant information helps you decide; irrelevant information does not—even if it is interesting or true.
+ 3. **Timeliness:** information is up to date and available when it is needed. Information that is too old or arrives too late loses its usefulness. Good information comes at the right time—not after the decision is already over.
+ 4. **Accuracy:** information is correct and matches reality. Facts are right, numbers are right, and statements reflect what is actually true. If something is accurate, you can trust that it isn’t wrong, misleading, or made up.
+ 5. **Reliability:** information can be trusted to be dependable, honest, and consistent over time. Reliable information is not biased or misleading, comes from a credible source, and holds up when checked or used again.
+ 6. **Sufficiency:** there is enough information—no important pieces are missing, and there is not unnecessary overload. The amount and level of detail fit the decision. You have what you need to decide, without being overwhelmed or left guessing.
+ 7. **Compliance:** information follows required laws, rules, standards, and policies. It meets formal obligations and expectations. Compliant information plays by the rules it is supposed to follow.
+ 8. **Clarity:** information is easy to understand, clearly explained, and not confusing. The meaning is obvious without special knowledge or extra interpretation. Clear information makes sense the first time you read or hear it.
+ 9. **Fairness:** information is unbiased, balanced, and considers different perspectives. It is not slanted to favor one group, outcome, or opinion unfairly. Fair information doesn’t “stack the deck” or leave out voices that matter.
+10. **Consistency:** information does not contradict itself and follows the same logic, terms, and structure throughout. Similar things are treated the same way. Consistent information doesn’t change its story halfway through.
+11. **Efficiency:** information can be accessed and used with reasonable effort, time, and cost. People can get what they need without unnecessary barriers. Efficient information is easy to find and use without wasting time or energy.
+12. **Security:** information is protected from unauthorized access, misuse, or harm. Only the right people can see or change it. Secure information is kept safe from people who should not have it.
+13. **Recoverability:** information can be restored if it is lost, damaged, or disrupted. Systems can bounce back after problems. If something goes wrong, the information isn’t gone forever.
+14. **Flexibility:** information can be used in more than one situation or adapted to different needs without losing meaning. Flexible information still works when the situation changes slightly.
 
 
-### Prompt Templates, Orchestrators, Configurations
-TBD
+More detailed information about these criteria, along with authoritative sources, can be found in the [Appendix: Information Quality Criteria](#appendix-decision-making-information-quality-criteria-priorities-with-definitions-and-sources).
 
-Specific combinations of [instructions and contextual prompt elements](#prompt-1) can be written as **discrete, reusable [behavior configurations](!!!TODO!!!)** (i.e., [specific knowledge entries](#knowledge-files-1) that define [behavior configurations](!!!TODO!!!), which are stored in a dedicated knowledge file for easy reuse). Think of a behavior configuration as a specialized chef responsible for a specific course of a multi-course meal with a particular theme for a given audience. The behavior configuration has a single objective, specific priorities, plus fairly common parameters defining the task (e.g., workflow), domains (i.e., knowledge), reasoning, structure, persona, and example elements. In this case, the executive chef is assigning the specialized chef to prepare the Aperitivo course for an Italian/American-fusion-themed meal for Italian diplomats.
-
-Specific arrangements of [behavior configurations](!!!TODO!!!) can be stored as **discrete, reusable [orchestrators](#orchestrators)** (i.e., [specific knowledge entries](#knowledge-files-1) that define [orchestrators](!!!TODO!!!), which are also stored in a dedicated knowledge file for easy reuse). Think of orchestrators as an executive chef guiding a team of specialized chefs, each responsible for a specific course of a multi-course Italian meal (e.g., Aperitivo, Antipasto, Primo, etc.). The objective of the orchestrator is to prepare a multi-course meal based on the request of the event host (the end-user). Once the orchestrator receives the host's request, the orchestrator distributes the work among the necessary configurations of specialized chefs. The host might request an Italian, Chinese, or Ethiopian theme for a five course meal for national leaders, tourists, or cultural event attendees. Different requests require different knowledge, techniques, supplies, equipment, and presentation. Orchestrators can easily handle assigning then validating the results of each behavior configuration before providing a response to the end-user.
-
-Instructions and contextual elements can be stored as **discrete, reusable [prompt templates](#prompt-templates)**, also stored in a dedicated knowledge file. Think of prompt templates as a event hosting manual used by executive chefs (orchestrator) or a meal course plan used by a specialized chef (behavior configuration). Instructions and context within templates can often be tailored depending on the circumstances (e.g., Italian, Chinese, Ethiopian, etc. theme; five- or seven-course meal; for national leaders, tourists, or charity event participants) then assigned to the necessary orchestrator(s), behavioral configuration(s), or directly to the model. 
-
-By leveraging prompt templates, orchestrators, behavioral configurations, along with foundational, basic, intermediate, or advanced IF-LLM elements, users are able to quickly and easily submit requests to consistently accomplish complex objectives given specific priorities requiring multiple tasks, each with unique specifications (e.g. workflows, domains, reasoning, structures, personas, examples). System architects and solution developers can configure, test, refine, and validate prompt templates, orchestrators, behavioral configurations, and other elements based on their scope of interest and expertise, thereby quickly scaling the opportunities available for end-users. By sharing their unique scaffolding elements, architects and developers across our many, widespread, and diverse communities can contribute to a universal, scalable, and maintainable system offering quick and easy prompts that offer safe and reliable responses for users to address a wide variety of needs.
-
-More detailed information about these rules can be found in the [Appendix: IF-LLM  Information](#appendix-if-llm-information) > [Common Elements: Instructions, Context, and Tools](#common-elements-instructions-context-and-tools).
-
----
-
-#### Prompt Templates
-TBD
+TODO: 5 to 7 examples of relateable tradeoffs 
 
 
 ---
 
-#### Orchestrators
-TBD
 
+### Common IF-LLM Failure Mitigation Strategies
 
----
-
-#### Configurations
-TBD
-
-
----
-
-#### Prompt Elements
-TBD
-
-
-
-- Prompt Templates, Orchestrators, Configurations
-  - Prompt Templates
-  - Orchestrators
-  - Configurations
-  - Prompt Elements
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
----
-
-## **Appendices**
-
-These appendices contain more detailed information and authoritative source references, if applicable, regarding elements of the Instruction-Following Large Language Model Behavior Ontology (IF-LLM-BO) project.
-
-
----
-
-### Appendix: Assumptions
-
-This appendix contains detailed information about the underlying assumptions for the Instruction-Following Large Language Model Behavior Ontology (IF-LLM-BO) project along with authoritative sources.
-
-Instruction-Following Large Language Models (IF-LLMs) produce results that are likely considered when making decisions. 
-
-Formal priorities are sometimes preferable to informal judgment, especially in high-risk or repeatable workflows. Explicit, ordered priorities improve decision quality during tradeoffs, regardless of the process used (i.e. whether using an IF-LLM or not). Therefore, IF-LLM processing and results for decision-making purposes should use [well-defined quality standards](#decision-making-information-quality-criteria-priorities).
-
-IF-LLMs are complex adaptive systems.
-
-Even with identical instructions, IF-LLM outputs may vary due to:
-- Model capability differences
-- Instruction formulation quality
-- Context window constraints
-- System-level limitations
-
-IF-LLM systems do not guarantee perfect determinism. Design goals emphasize **risk reduction and consistency improvement**, not absolute predictability. In other words, it is impossible to eliminate the risk of experiencing undesirable results. However, it is possible to reduce the risks of experiencing undesirable results.
-
-Instructional alignment (i.e. known and controllable for many developers and users) is reflected in **observable output behavior**, not internal model state (i.e. unknown and uncontrollable for most developers and users). 
-
-IF-LLM instructions and contextual information **materially influence** how inputs are interpreted and how outputs are generated.
-
-IF-LLM behavioral correctness is evaluated based on outputs relative to stated instructions, priorities, and constraints.
-
-Instruction-following behavior must be evaluated against stated objectives and priorities. Evaluation criteria must be explicit and observable.
-
-Evaluation results are expected to inform:
-- Refinement of instructions
-- Updates to knowledge entries
-- Adjustments to configurations
-
-Continuous improvement is an assumption, not an optional enhancement.
-
-There is credible and sufficient evidence that Instruction-Following Large Language Models (IF-LLMs) produce a finite number of [common failure modes](#common-if-llm-failure-modes).
-
-Explicit instructions outperform implicit expectations in reducing risks of experiencing common failure modes.
-
-The likelihood for IF-LLM behavioral correctness can be improved and risks of encountering common failure modes can be reduced by incorporating various policies and contextual information into explicit IF-LLM instructions (i.e., [Common IF-LLM Failure Mitigation Strategies](#common-if-llm-failure-mitigation-strategies)).
-
-Instructions and context may be provided by:
-- System architects
-- Solution developers
-- End users
-
-Instruction and context contributors may have different objectives, priorities, and constraints.
-
-IF-LLMs process instructions and context using a **strict authority hierarchy**, where higher-authority instructions override lower-authority inputs (i.e., [Instruction and Context Hierarchy](#instruction-and-context-authority-hierarchy)).
-
-System-level processing policies are authoritative and should not be silently reinterpreted or weakenedto preserve auditability.
-
-Conflicts between instructions must be resolved deterministically according to that hierarchy. Undisclosed or silent overrides reduce reliability and must be avoided.
-
-Human beings are responsible for the following activities related to IF-LLM instructions and context:
-- Creating
-- Reviewing
-- Updating (Maintaining)
-- Deleting (Retiring)
-
-[Instructions and contextual elements](#prompt-anatomy) can be stored as **discrete, reusable [knowledge entries](#knowledge-files)**. Knowledge entries can be grouped into **[knowledge files](#knowledge-files)** to improve organization, reuse, and governance.
-
-Knowledge files provided to the model override general model knowledge but do not override system- or developer-level instructions.
-
-Stable identifiers (IDs, tags, handles) for knowledge entries improve traceability, reuse, and auditability over time.
-
-Human-readable structure is preferred over opaque or auto-generated schemas for clarity.
-
-Instructions and contextual elements can be stored as **discrete, reusable [prompt templates](#prompt-templates)**, also stored in a dedicated knowledge file.
-
-Specific combinations of instructions and contextual elements can be stored as **discrete, reusable [configurations](#configurations)**, stored in a dedicated knowledge file too.
-
-Specific arrangements of configurations can be stored as **discrete, reusable [orchestrators](#orchestrators)**, stored in a dedicated knowledge file as well.
-
-Missing, outdated, or uncertain knowledge should be disclosed rather than inferred to ensure auditability.
-
-Refusals, limitations, and uncertainty disclosures are valid and expected outcomes for most IF-LLMs.
-
-When conflicts arise, safety and correctness often override completeness or convenience for most IF-LLMs.
-
-Using a [semi-formal ontology](#background) to establish system-level policies, contextual defaults, and offer reusable, standardized instructions for common use cases can help improve behavioral correctness and reduce risks of encountering common failure modes.
-
-The IF-LLM-BO is a **practical, lightweight semantic scaffolding system**, not a formally complete ontology.
-
-Human usability and behavioral guidance take precedence over theoretical rigor.
-
-The ontology should:
-- Minimize unnecessary structure
-- Enable incremental improvement
-- Surface uncertainty early
-- Support small-batch testing and refinement
- 
-Using an ontology assumes **active governance**, not self-correcting automation.
-
- Human beings are fallible and may not be consistent.
-
-The effectiveness of any ontology depends on **consistent and disciplined use** by humans, including [governance policies](#policies-governance).
-
-Human beings must take responsibility for creating, reviewing, updating, and deleting [governance policies](#policies-governance). IF-LLM tools should assist human beings to create, review, update, and delete knowledge entries related to knowledge file policies, knowledge entry policies, processing policies, and other knowledge entries while referring to governance policies. This can to improve clarity, completeness, consistency, which ultimately improves behavioral correctness and auditability.
-
-Bypassing or inconsistently applying the ontology reduces reliability but does not invalidate the design.
-
-
----
-
-
-### Appendix: Evidenced-based Information Criteria (Research)
 TODO
 
 
 ---
 
+### Core Components for Quick, Easy, and Reasonable Results
 
-### Appendix: Decision-Making Information Quality Criteria (Priorities) with Definitions and Sources
-
-This appendix describes the decision-making information quality criteria and definitions used in the Information-Following Large Language Model Behavior Ontology (IF-LLM-BO) project. This appendix expands on the [Decision-Making Information Quality Criteria (Priorities)](#decision-making-information-quality-criteria-priorities). The criteria and definitions are based on terms used in various [authoritative sources](#summary-of-authoritative-sources-for-decision-making-information-quality-criteria-priorities).
-
-Instruction-following large language models (IF-LLMs) are often used to generate information that influence decisions impacting people and other systems. Because of this, the responses they produce should meet clear and well-defined quality standards. The quality standards listed below identify the key criteria that information should have in order to reliably support decision-making. To produce information that meaningfully supports decisions, IF-LLMs should prioritize these criteria according to their ranked importance. Any trade-offs should be disclosed to users. In turn, the policies and procedures governing IF-LLM-BO systems should be designed to reflect and reinforce these priorities. The criteria listed below are shown in their order of importance; their priorities.
-
-The criteria and definitions presented here are **synthesized from the cited authoritative sources**. Each definition is written to answer a practical question: *“What does this mean for everyday decision-making?”*
-
-- **Auditability:** source of information, how information was changed, and who handled information can be identified.
-  - *Sources*
-    - *Traceability* in **ISO.** *ISO 25012: Software Engineering—Software Product Quality Requirements and Evaluation (SQuaRE)—Data Quality Model.* International Organization for Standardization, 2008.
-- **Relevance:** information matters for the decision being made and helps improve that decision. It connects directly to the question, problem, or goal at hand. Relevant information helps you decide; irrelevant information does not—even if it is interesting or true.
-  - *Sources*
-    - *Relevance* and *Value* in **O’Brien, James A., and George M. Marakas.** *Management Information Systems.* 10th ed., McGraw-Hill/Irwin, 2011.
-    - *Relevance* and *Value-added* in **Wang, Richard Y., and Diane M. Strong.** “Beyond Accuracy: What Data Quality Means to Data Consumers.” *Journal of Management Information Systems*, vol. 12, no. 4, 1996, pp. 5–33.
-    - *Relevance* in **Eppler, Martin J.** *Managing Information Quality: Increasing the Value of Information in Knowledge-Intensive Products and Processes.* Springer, 2006.
-    - *Relevance* and *Significance* in **Paul, Richard, and Linda Elder.** *The Miniature Guide to Critical Thinking: Concepts and Tools.* Foundation for Critical Thinking, 2008.
-- **Timeliness:** information is up to date and available when it is needed. Information that is too old or arrives too late loses its usefulness. Good information comes at the right time—not after the decision is already over.
-  - *Sources*
-    - *Currentness* in **ISO.** *ISO 25012: Software Engineering—Software Product Quality Requirements and Evaluation (SQuaRE)—Data Quality Model.* International Organization for Standardization, 2008.
-    - *Timeliness* in **O’Brien, James A., and George M. Marakas.** *Management Information Systems.* 10th ed., McGraw-Hill/Irwin, 2011.
-    - *Timeliness* in **Wang, Richard Y., and Diane M. Strong.** “Beyond Accuracy: What Data Quality Means to Data Consumers.” *Journal of Management Information Systems*, vol. 12, no. 4, 1996, pp. 5–33.
-    - *Timeliness*, *Up-to-dateness*, and *Frequency* in **Eppler, Martin J.** *Managing Information Quality: Increasing the Value of Information in Knowledge-Intensive Products and Processes.* Springer, 2006.
-- **Accuracy:** information is correct and matches reality. Facts are right, numbers are right, and statements reflect what is actually true. If something is accurate, you can trust that it isn’t wrong, misleading, or made up.
-  - *Sources*
-    - **ISO.** *ISO 25012: Software Engineering—Software Product Quality Requirements and Evaluation (SQuaRE)—Data Quality Model.* International Organization for Standardization, 2008.
-    - **O’Brien, James A., and George M. Marakas.** *Management Information Systems.* 10th ed., McGraw-Hill/Irwin, 2011.
-    - **Wang, Richard Y., and Diane M. Strong.** “Beyond Accuracy: What Data Quality Means to Data Consumers.” *Journal of Management Information Systems*, vol. 12, no. 4, 1996, pp. 5–33.
-    - **Eppler, Martin J.** *Managing Information Quality: Increasing the Value of Information in Knowledge-Intensive Products and Processes.* Springer, 2006.
-    - **Paul, Richard, and Linda Elder.** *The Miniature Guide to Critical Thinking: Concepts and Tools.* Foundation for Critical Thinking, 2008.
-- **Reliability:** information can be trusted to be dependable, honest, and consistent over time. Reliable information is not biased or misleading, comes from a credible source, and holds up when checked or used again.
-  - *Sources*
-    - *Credibility* in **ISO.** *ISO 25012: Software Engineering—Software Product Quality Requirements and Evaluation (SQuaRE)—Data Quality Model.* International Organization for Standardization, 2008.
-    - *Reliability* in **O’Brien, James A., and George M. Marakas.** *Management Information Systems.* 10th ed., McGraw-Hill/Irwin, 2011.
-    - *Objectivity*, *Believability*, and *Reputation* in **Wang, Richard Y., and Diane M. Strong.** “Beyond Accuracy: What Data Quality Means to Data Consumers.” *Journal of Management Information Systems*, vol. 12, no. 4, 1996, pp. 5–33.
-    - *Reliability* in **Eppler, Martin J.** *Managing Information Quality: Increasing the Value of Information in Knowledge-Intensive Products and Processes.* Springer, 2006.
-    - *Fairness* in **Paul, Richard, and Linda Elder.** *The Miniature Guide to Critical Thinking: Concepts and Tools.* Foundation for Critical Thinking, 2008.
-- **Sufficiency:** there is enough information—no important pieces are missing, and there is not unnecessary overload. The amount and level of detail fit the decision. You have what you need to decide, without being overwhelmed or left guessing.
-  - *Sources*
-    - *Completeness* and *Precision* in **ISO.** *ISO 25012: Software Engineering—Software Product Quality Requirements and Evaluation (SQuaRE)—Data Quality Model.* International Organization for Standardization, 2008.
-    - *Completeness* and *Economy* in **O’Brien, James A., and George M. Marakas.** *Management Information Systems.* 10th ed., McGraw-Hill/Irwin, 2011.
-    - *Completeness* and *Appropriate Amount* in **Wang, Richard Y., and Diane M. Strong.** “Beyond Accuracy: What Data Quality Means to Data Consumers.” *Journal of Management Information Systems*, vol. 12, no. 4, 1996, pp. 5–33.
-    - *Completeness*, *Conciseness*, and *Level of Detail* in **Eppler, Martin J.** *Managing Information Quality: Increasing the Value of Information in Knowledge-Intensive Products and Processes.* Springer, 2006.
-    - *Depth*, *Significance*, and *Precision* in **Paul, Richard, and Linda Elder.** *The Miniature Guide to Critical Thinking: Concepts and Tools.* Foundation for Critical Thinking, 2008.
-- **Compliance:** information follows required laws, rules, standards, and policies. It meets formal obligations and expectations. Compliant information plays by the rules it is supposed to follow.
-  - *Source:* **ISO.** *ISO 25012: Software Engineering—Software Product Quality Requirements and Evaluation (SQuaRE)—Data Quality Model.* International Organization for Standardization, 2008.
-- **Clarity:** information is easy to understand, clearly explained, and not confusing. The meaning is obvious without special knowledge or extra interpretation. Clear information makes sense the first time you read or hear it.
-  - *Sources*
-    - *Completeness* and *Precision* in **ISO.** *ISO 25012: Software Engineering—Software Product Quality Requirements and Evaluation (SQuaRE)—Data Quality Model.* International Organization for Standardization, 2008.
-    - *Completeness* and *Economy* in **O’Brien, James A., and George M. Marakas.** *Management Information Systems.* 10th ed., McGraw-Hill/Irwin, 2011.
-    - *Interpretability* and *Ease of Understanding* in **Wang, Richard Y., and Diane M. Strong.** “Beyond Accuracy: What Data Quality Means to Data Consumers.” *Journal of Management Information Systems*, vol. 12, no. 4, 1996, pp. 5–33.
-    - *Clarity* and *Conciseness* in **Eppler, Martin J.** *Managing Information Quality: Increasing the Value of Information in Knowledge-Intensive Products and Processes.* Springer, 2006.
-    - *Clarity* in **Paul, Richard, and Linda Elder.** *The Miniature Guide to Critical Thinking: Concepts and Tools.* Foundation for Critical Thinking, 2008.
-- **Fairness:** information is unbiased, balanced, and considers different perspectives. It is not slanted to favor one group, outcome, or opinion unfairly. Fair information doesn’t “stack the deck” or leave out voices that matter.
-  - *Sources*
-    - *Credibility* in **ISO.** *ISO 25012: Software Engineering—Software Product Quality Requirements and Evaluation (SQuaRE)—Data Quality Model.* International Organization for Standardization, 2008.
-    - *Reliability* and *Flexibility* in **O’Brien, James A., and George M. Marakas.** *Management Information Systems.* 10th ed., McGraw-Hill/Irwin, 2011.
-    - *Objectivity* in **Wang, Richard Y., and Diane M. Strong.** “Beyond Accuracy: What Data Quality Means to Data Consumers.” *Journal of Management Information Systems*, vol. 12, no. 4, 1996, pp. 5–33.
-    - *Fairness* and *Breadth* in **Paul, Richard, and Linda Elder.** *The Miniature Guide to Critical Thinking: Concepts and Tools.* Foundation for Critical Thinking, 2008.
-- **Consistency:** information does not contradict itself and follows the same logic, terms, and structure throughout. Similar things are treated the same way. Consistent information doesn’t change its story halfway through.
-  - *Sources*
-    - *Consistency* in **ISO.** *ISO 25012: Software Engineering—Software Product Quality Requirements and Evaluation (SQuaRE)—Data Quality Model.* International Organization for Standardization, 2008.
-    - *Reliability* in **O’Brien, James A., and George M. Marakas.** *Management Information Systems.* 10th ed., McGraw-Hill/Irwin, 2011.
-    - *Consistent Representation* in **Wang, Richard Y., and Diane M. Strong.** “Beyond Accuracy: What Data Quality Means to Data Consumers.” *Journal of Management Information Systems*, vol. 12, no. 4, 1996, pp. 5–33.
-    - *Consistency* in **Eppler, Martin J.** *Managing Information Quality: Increasing the Value of Information in Knowledge-Intensive Products and Processes.* Springer, 2006.
-    - *Logic* in **Paul, Richard, and Linda Elder.** *The Miniature Guide to Critical Thinking: Concepts and Tools.* Foundation for Critical Thinking, 2008.
-- **Efficiency:** information can be accessed and used with reasonable effort, time, and cost. People can get what they need without unnecessary barriers. Efficient information is easy to find and use without wasting time or energy.
-  - *Sources*
-    - *Accessibility* and *Availability* in **ISO.** *ISO 25012: Software Engineering—Software Product Quality Requirements and Evaluation (SQuaRE)—Data Quality Model.* International Organization for Standardization, 2008.
-    - *Accessibility* in **O’Brien, James A., and George M. Marakas.** *Management Information Systems.* 10th ed., McGraw-Hill/Irwin, 2011.
-    - *Accessibility* in **Wang, Richard Y., and Diane M. Strong.** “Beyond Accuracy: What Data Quality Means to Data Consumers.” *Journal of Management Information Systems*, vol. 12, no. 4, 1996, pp. 5–33.
-    - *Accessibility* in **Eppler, Martin J.** *Managing Information Quality: Increasing the Value of Information in Knowledge-Intensive Products and Processes.* Springer, 2006.
-- **Security:** information is protected from unauthorized access, misuse, or harm. Only the right people can see or change it. Secure information is kept safe from people who should not have it.
-  - *Sources*
-    - *Confidentiality* in **ISO.** *ISO 25012: Software Engineering—Software Product Quality Requirements and Evaluation (SQuaRE)—Data Quality Model.* International Organization for Standardization, 2008.
-    - *Access Security* in **Wang, Richard Y., and Diane M. Strong.** “Beyond Accuracy: What Data Quality Means to Data Consumers.” *Journal of Management Information Systems*, vol. 12, no. 4, 1996, pp. 5–33.
-    - *Security* in **Eppler, Martin J.** *Managing Information Quality: Increasing the Value of Information in Knowledge-Intensive Products and Processes.* Springer, 2006.
-- **Recoverability:** information can be restored if it is lost, damaged, or disrupted. Systems can bounce back after problems. If something goes wrong, the information isn’t gone forever.
-  - *Source:* **ISO.** *ISO 25012: Software Engineering—Software Product Quality Requirements and Evaluation (SQuaRE)—Data Quality Model.* International Organization for Standardization, 2008.
-- **Flexibility:** information can be used in more than one situation or adapted to different needs without losing meaning. Flexible information still works when the situation changes slightly.
-  - *Source:* **O’Brien, James A., and George M. Marakas.** *Management Information Systems.* 10th ed., McGraw-Hill/Irwin, 2011.
-
-
----
-
-##### Summary of Authoritative Sources for Decision-Making Information Quality Criteria (Priorities)
-
-A summary of the authoritative sources for these information quality criteria appears below:
-- **ISO.** *ISO 25012: Software Engineering—Software Product Quality Requirements and Evaluation (SQuaRE)—Data Quality Model.* International Organization for Standardization, 2008.
-- **O’Brien, James A., and George M. Marakas.** *Management Information Systems.* 10th ed., McGraw-Hill/Irwin, 2011.
-- **Wang, Richard Y., and Diane M. Strong.** “Beyond Accuracy: What Data Quality Means to Data Consumers.” *Journal of Management Information Systems*, vol. 12, no. 4, 1996, pp. 5–33.
-- **Eppler, Martin J.** *Managing Information Quality: Increasing the Value of Information in Knowledge-Intensive Products and Processes.* Springer, 2006.
-- **Paul, Richard, and Linda Elder.** *The Miniature Guide to Critical Thinking: Concepts and Tools.* Foundation for Critical Thinking, 2008.
-
-
----
-
-### Appendix: IF-LLM Information
 TODO
 
 
----
 
 
-#### Commonly Used IF-LLMs
-TODO
-      
-The following is a list of IF-LLMs. This list has been sorted from highest to least estimated global use based on reports during Fall 2025. The list below is the expansion of the previous list in [Foundations > Commonly Used IF-LLM Models](#commonly-used-if-llms).
-
-- **[OpenAI ChatGPT](https://chat.openai.com/)**
-  - Usage
-    - ~5.5–5.8 billion monthly visits
-    - ~46–46.6 billion annual visits
-    - ~80% global chatbot market share
-    - **dominant globally** in both traffic and market share (~60–80% depending on dataset)
-    - **orders of magnitude more usage** than competitors (billions of monthly visits).
-  - Sources
-    - *Exploding Topics*. "65 Most Popular AI Tools Ranked (December 2025)." ([Exploding Topics](https://explodingtopics.com/blog/most-popular-ai-tools)).
-    - *DemandSage*. "Latest Chatbot Statistics 2025 (Market Share & Trends)." ([DemandSage](https://www.demandsage.com/chatbot-statistics/)).
-    - *Statcounter*. "AI Chatbot Market Share Worldwide." ([Statcounter](https://gs.statcounter.com/ai-chatbot-market-share)).
-    - *Visual Capitalist*. "The 10 Most-Used AI Chatbots in 2025." ([Visual Capitalist](https://www.visualcapitalist.com/the-10-most-used-ai-chatbots-in-2025)).
-- **[Google Gemini](https://gemini.google.com/)**
-  - Usage
-    - ~1.3 billion monthly visits
-    - 122 million monthly unique users
-    - rapidly growing daily average user (DAU) share up to ~25% in some markets
-    - consistently **ranked second by traffic and user growth**.
-  - Sources
-    - *DemandSage*. "Latest Chatbot Statistics 2025 (Market Share & Trends)." ([DemandSage](https://www.demandsage.com/chatbot-statistics/)).
-    - *eMarketer*. "Gemini gains ground on ChatGPT with 25% US DAU share as Claude's churn drops". ([eMarketer](https://www.emarketer.com/content/gemini-gains-ground-chatgpt-25-dau-share-claude-churn-drops)).
-    - *DataReportal*. "Digital 2026: More Than 1 Billion People Use AI". ([DataReportal](https://datareportal.com/reports/digital-2026-one-billion-people-using-ai)).
-- **[Perplexity AI](https://www.perplexity.ai/)**
-  - Usage
-    - ~189 million monthly visits
-    - ~7–11% global market share depending on dataset
-  - Sources
-    - *DemandSage*. "Latest Chatbot Statistics 2025 (Market Share & Trends)." ([DemandSage](https://www.demandsage.com/chatbot-statistics/)).
-    - *Statcounter*. "AI Chatbot Market Share Worldwide." ([Statcounter](https://gs.statcounter.com/ai-chatbot-market-share)).
-- **[Microsoft Copilot](https://copilot.microsoft.com/)**
-  - Usage
-    - ~100–150 million monthly users/visits
-    - ~3–10% share depending on metric
-  - Sources
-    - *DemandSage*. "Latest Chatbot Statistics 2025 him (Market Share & Trends)." ([DemandSage](https://www.demandsage.com/chatbot-statistics/)).
-    - *Statcounter*. "AI Chatbot Market Share Worldwide." ([Statcounter](https://gs.statcounter.com/ai-chatbot-market-share)).
-    - *LinkedIn*. "The Top 5 AI Chatbots Rulhim himing 2025: Blending Massive Crowds with Serious Smarts." ([LinkedIn](https://www.linkedin.com/pulse/top-5-ai-chatbots-ruling-2025-blending-massive-crowds-dale-van-blerk-thmff/)).
-- **[Claude (Anthropic)](https://claude.ai/)**
-  - Usage
-    - ~180 million monthly visits
-    - ~1–4% share depending on region
-    - strong enterprise growth
-  - Sources
-    - *DemandSage*. "Latest Chatbot Statistics 2025 (Market Share & Trends)." ([DemandSage](https://www.demandsage.com/chatbot-statistics/)).
-    - *Statcounter*. "AI Chatbot Market Share Worldwide." ([Statcounter](https://gs.statcounter.com/ai-chatbot-market-share)).
-    - *eMarketer*. "Gemini gains ground on ChatGPT with 25% US DAU share as Claude's churn drops". ([eMarketer](https://www.emarketer.com/content/gemini-gains-ground-chatgpt-25-dau-share-claude-churn-drops)).
-- **[Meta AI (Meta Platforms)](https://www.meta.ai/)**
-  - Usage
-    - likely has **very high total reach**, but lack of transparent standalone metrics prevents precise ranking.
-    - widely used via Facebook, Instagram, and WhatsApp integrations
-  - Sources
-    - Andreessen Horowitz. "State of Consumer AI 2025: Product Hits, Misses, and What’s Next." ([Andreessen Horowitz](https://a16z.com/state-of-consumer-ai-2025-product-hits-misses-and-whats-next/)).
-- **[Grok (xAI)](https://grok.x.ai/)**
-  - Usage
-    - ~150–200 million monthly visits estimated 
-    - usage tied to X/Twitter ecosystem
-  - Sources
-    - *Axios*. "ChatGPT is still by far the most popular AI chatbot." ([Axios](https://www.axios.com/2025/09/06/ai-chatbot-popularity)).
-
-
-**NOTES:**
-- ChatGPT and Gemini form the **first-year** IF-LLM Perplexi hosts/developers.
-- Perplexity, Copilot, and Claude form a **second tier** with tens to hundreds of millions of users.
-- Meta AI and Grok are ecosystem-dependent and emerging
-- Interpretation
-  - Ranking is based on **traffic + market share + user estimates combined**, since no single standardized metric exists across all providers.
-- Material Tradeoffs & Limitations (Required Disclosure)
-  - **Metric inconsistency:** Sources mix **visits, unique users, DAUs, and market share**, which are not directly comparable.
-  - **Platform integration bias:** Tools embedded in ecosystems (Google, Microsoft, Meta) may have **underreported or differently measured usage**.
-  - **Timeliness vs. reliability tradeoff:** Using recent (2025–2026) data improves relevance but introduces **variation across datasets and methodologies**.
-  - **Stakeholder impact:** Rankings may influence business or personal tool choices; uncertainty could affect decisions.
-
-
-##### Summary of Authoritative Sources for Commonly Used IF-LLMs
-
-Below is the summary of authoritative sources used to identify commonly used IF-LLMs:
-- Andreessen Horowitz. "State of Consumer AI 2025: Product Hits, Misses, and What’s Next." ([Andreessen Horowitz](https://a16z.com/state-of-consumer-ai-2025-product-hits-misses-and-whats-next/)).
-- *DataReportal*. "Digital 2026: More Than 1 Billion People Use AI". ([DataReportal](https://datareportal.com/reports/digital-2026-one-billion-people-using-ai)).
-- *DemandSage*. "Latest Chatbot Statistics 2025 (Market Share & Trends)." ([DemandSage](https://www.demandsage.com/chatbot-statistics/)).
-- *eMarketer*. "Gemini gains ground on ChatGPT with 25% US DAU share as Claude's churn drops". ([eMarketer](https://www.emarketer.com/content/gemini-gains-ground-chatgpt-25-dau-share-claude-churn-drops)).
-- *Exploding Topics*. "65 Most Popular AI Tools Ranked (December 2025)." ([Exploding Topics](https://explodingtopics.com/blog/most-popular-ai-tools)).
-- *LinkedIn*. "The Top 5 AI Chatbots Ruling 2025: Blending Massive Crowds with Serious Smarts." ([LinkedIn](https://www.linkedin.com/pulse/top-5-ai-chatbots-ruling-2025-blending-massive-crowds-dale-van-blerk-thmff/)).
-- *Statcounter*. "AI Chatbot Market Share Worldwide." ([Statcounter](https://gs.statcounter.com/ai-chatbot-market-share)).
-- *Visual Capitalist*. "The 10 Most-Used AI Chatbots in 2025." ([Visual Capitalist](https://www.visualcapitalist.com/the-10-most-used-ai-chatbots-in-2025)).
-
-
----
-
-
-#### Instruction and Context Authority Hierarchy
-
-TODO: Briefly define the hierarchy of IF-LLM instructions and knowledge authority as outlined below, including how instructions are granted authority, critical phrases used to grant/assign authority, plus 3 to 5 examplesto help users understand the value of this hierarchy.
-1. System Instructions and Context (Global Policies and Context) (e.g., knowledge entries with the highest authority (i.e., meta knowledge entries))
-2. Developer Instructions and Context (e.g., knowledge entries with the second-highest authority, developer implemented knowledge entries)
-3. User Instructions and Context (i.e., the current conversation via chat or API, which could reference existing knowledge entries)
-4. Knowledge Files (and their collection of entries)
-5. User-Uploaded Files (e.g., user-uploaded files, which are considered user knowledge files containing user knowledge injuries)
-6. Tool Outputs
-7. General Model Knowledge
-
-IF-LLMs receive instructions through either user prompts (e.g., chat interfaces or APIs) or developer instructions. Users and developers can store reusable instructions and context in knowledge entries of various types. Knowledge entries can be organized into knowledge files.
-
-
----
 
 #### Common Elements: Instructions, Context, and Tools
 
@@ -1015,6 +731,22 @@ As stated in the previous section, the foundational IF-LLM elements are as follo
 - Models typically separate and process system, developer, and user instructions per the [Instruction and Context Authority Hierarchy](#instruction-and-context-authority-hierarchy). This is more evident when using IF-LLM via APIs versus web interfaces. Meaning, instructions have three layers: system, developer, and user.
 - Instructions and context may come from prompt input, knowledge files (from system architects, solution developers, or users), tool results (including retrieved and generated content), conversation history, and stored memories from other conversations. Meaning, user input, knowledge files, and examples are simply three of many important channels for context/grounding, which also include tool results, retrieved and generated content, conversation history, plus stored memories.
 - Examples are critical prompt elements, often called "few-shot examples", that help guide  models toward desirable responses.
+
+
+
+#### Instruction and Context Authority Hierarchy
+
+TODO: Briefly define the hierarchy of IF-LLM instructions and knowledge authority as outlined below, including how instructions are granted authority, critical phrases used to grant/assign authority, plus 3 to 5 examplesto help users understand the value of this hierarchy.
+1. System Instructions and Context (Global Policies and Context) (e.g., knowledge entries with the highest authority (i.e., meta knowledge entries))
+2. Developer Instructions and Context (e.g., knowledge entries with the second-highest authority, developer implemented knowledge entries)
+3. User Instructions and Context (i.e., the current conversation via chat or API, which could reference existing knowledge entries)
+4. Knowledge Files (and their collection of entries)
+5. User-Uploaded Files (e.g., user-uploaded files, which are considered user knowledge files containing user knowledge injuries)
+6. Tool Outputs
+7. General Model Knowledge
+
+IF-LLMs receive instructions through either user prompts (e.g., chat interfaces or APIs) or developer instructions. Users and developers can store reusable instructions and context in knowledge entries of various types. Knowledge entries can be organized into knowledge files.
+
 
 
 ##### Basic
@@ -1144,6 +876,123 @@ IF-LLMs receive instructions through either user prompts (e.g., chat interfaces 
 
 
 
+---
+
+### Comprehensive Architecture for Critical Needs
+
+TODO
+
+
+---
+
+
+### Instruction Elements (Scaffolding)
+
+The scaffolding so far is as follows:
+- **ontology:** *serves as the semantic root for all model behavior.* The ontology defines the canonical concepts, relationships, and behavior guidance that constitute the instruction-following LLM’s shared semantic foundation.
+  - **meta:** *provides cross-cutting rules and scaffolding about the ontology itself.* Meta captures naming rules, modeling conventions, global decision policies, ontology versioning, glossaries of meta-terms, and core primitives reused across domains.
+  - **tasks:** *defines what the model is expected to do and how success is judged.* Tasks specify objectives, priorities, success criteria, unacceptable outputs, scope boundaries, and workflows, providing explicit guidance on intended outcomes and failure avoidance.
+  - **domains:** *constrain what knowledge space the model may operate within.* Domains describe relevant elements and relationships, in-scope and out-of-scope topics, geographic or contextual boundaries, and known uncertainty zones to reduce ambiguity and hallucination.
+  - **experts:** *shape how the model reasons about the task.* Experts encode reasoning frameworks, heuristics, and analytical lenses that guide interpretation, tradeoffs, and decision-making without prescribing exact answers.
+  - **structures:** *control how outputs are organized and validated.* Structures define required sections, ordering, mandatory and conditional fields, and formatting rules to ensure consistency, completeness, and evaluability of responses.
+  - **personas:** *govern how the model communicates.* Personas specify tone, voice, formality, conciseness, and stylistic constraints, aligning outputs with audience expectations without altering underlying task logic.
+  - **examples:** *demonstrate acceptable patterns of behavior.* Examples pair representative prompts with corresponding results to illustrate desired reasoning, structure, and boundary handling in concrete terms.
+  - **configs:** *compose a complete behavioral profile.* Configurations bind tasks, domains, experts, structures, personas, and examples into a reusable, explicit behavioral setup that enables consistent instruction-following across contexts.
+
+
+---
+
+
+### Knowledge Entry Anatomy
+
+- Common Human Reference
+- Canonical Handles
+  - IDs
+  - Namespaced Tags
+- Alias Tags
+- Definition Summary / Purpose
+- Content Specific Fields
+
+### Knowledge File Anatomy
+
+#### File Header
+
+#### Indexes
+- Canonical Handles Index
+- Aliases Index
+
+#### Knowledge Header
+
+##### Knowledge Entries
+
+
+
+### Knowledge Entry Types
+
+#### Meta Entries
+
+## Processing Policies
+### Enforcement & Degradation Handling
+### Instruction Precedence
+### Safety, Privacy, and Refusals
+### Context
+#### Context & Ambiguity Handling
+#### Knowledge & Information Hierarchy
+### Hallucination & Fabrication
+### Defaults
+#### Tasks
+##### Priorities
+##### Identity
+##### Audience
+##### Success Criteria (Quality Bar)
+#### Domains
+##### Deterministic Defaults (US)
+#### Experts
+##### Reasoning & Uncertainty
+#### Tools
+##### Tool Usage
+##### Tool Constraints (Negative Rules)
+#### Structures
+##### Output Structure Sections
+##### Output Structure Flexibility
+
+### Priorities
+TODO: Outline priorities
+
+### Knowledge
+TODO: Outline knowledge, especially types and significance toward objectives and priorities.
+
+### Work in Progress
+this IF-LLM Behavior Ontology (IFLLMBO) is intended to be a lightweight, LLM-legible semantic scaffolding system for organizing knowledge files and entries that ensure tools are more likely to offer results that are more accurate, reliable, relevant, specific, clear, practical, fair, and efficient.
+
+It prioritizes human-readable structure, stable identifiers, and explicit decision guidance over formal ontology rigor, enabling consistent reasoning and behavior across AI-assisted workflows.
+
+Ideation and Exploration
+entries background donations
+Clarify Prompt Parameter Breakdown
+it's
+Meta Knowledge File Policies Processing Policies Tasks Objective Priorities Workflow (Steps) Domains Elements (e.g., knowledge, ability, or skill) Relationships with Other Elements Experts Summary Scope Reasoning Approach and Core Priorities (Ranked) Reasoning Style Judgment Norms Risk Tolerance Evidence Threshold Decision Posture Uncertainty Handling Ethical / Compliance Sensitivity Interaction Guidelines Intended Use Cases Non-Goals Tools (not a knowledge file but a feature of the GPT) Structures Personas
+
+
+
+The scaffolding so far is as follows:
+- **ontology:** *serves as the semantic root for all model behavior.* The ontology defines the canonical concepts, relationships, and behavior guidance that constitute the instruction-following LLM’s shared semantic foundation.
+  - **[knowledge files](#knowledge-files)**
+    - **[policies](#policies):** *provides cross-cutting rules and scaffolding about the ontology itself.*
+      - **[governance](#policies-governance):** other policies requiring human responsibility.
+      - **[knowledge entry](#policies-knowledge-entry):** naming rules, modeling conventions, versioning, and core primitives.
+      - **[processing](#policies-processing):** global decision policies.
+    - **[prompt templates](#prompt-templates):** *offer reusable, copyable prompt pattern templates ensuring more consistent use and improved results.*
+      - **[tasks](#task):** *defines what the model is expected to do and how success is judged.* Tasks specify objectives, priorities, success criteria, unacceptable outputs, scope boundaries, and workflows, providing explicit guidance on intended outcomes and failure avoidance.
+      - **[domains](#domains-1):** *constrain what knowledge space the model may operate within.* Domains describe relevant elements and relationships, in-scope and out-of-scope topics, geographic or contextual boundaries, and known uncertainty zones to reduce ambiguity and hallucination.
+      - **[reasoning](#reasoning):** *shape how the model reasons about the task.* Reasoning encode reasoning frameworks, heuristics, and analytical lenses that guide interpretation, tradeoffs, and decision-making without prescribing exact answers.
+      - **[structures](#structure):** *control how outputs are organized and validated.* Structures define required sections, ordering, mandatory and conditional fields, and formatting rules to ensure consistency, completeness, and evaluability of responses.
+      - **[personas](#persona):** *govern how the model communicates.* Personas specify tone, voice, formality, conciseness, and stylistic constraints, aligning outputs with audience expectations without altering underlying task logic.
+      - **[examples](#examples):** *demonstrate acceptable patterns of behavior.* Examples pair representative prompts with corresponding results to illustrate desired reasoning, structure, and boundary handling in concrete terms.
+    - **[configurations](#configurations):** *compose a complete behavioral profile.* Configurations bind tasks, domains, reasoning, structures, personas, and examples into a reusable, explicit behavioral setup that enables consistent instruction-following across contexts.
+    - **[orchestrators](#orchestrators):** TODO *orchestrates activity across multiple configurations.* Orchestrators coordinate tasks among multiple configurations with unique tasks, domains, reasoning, structures, personas, and examples into a reusable, explicit behavioral setup that enables consistent instruction-following across contexts. Orchestrators validate results between each configuration to improve results.
+
+
 
 #### Prompt Anatomy
 TODO
@@ -1232,7 +1081,304 @@ TODO
 ##### Examples
 TODO
 
- 
+
+#### Prompt Templates, Orchestrators, Configurations
+TBD
+
+Specific combinations of [instructions and contextual prompt elements](#prompt-1) can be written as **discrete, reusable [behavior configurations](!!!TODO!!!)** (i.e., [specific knowledge entries](#knowledge-files-1) that define [behavior configurations](!!!TODO!!!), which are stored in a dedicated knowledge file for easy reuse). Think of a behavior configuration as a specialized chef responsible for a specific course of a multi-course meal with a particular theme for a given audience. The behavior configuration has a single objective, specific priorities, plus fairly common parameters defining the task (e.g., workflow), domains (i.e., knowledge), reasoning, structure, persona, and example elements. In this case, the executive chef is assigning the specialized chef to prepare the Aperitivo course for an Italian/American-fusion-themed meal for Italian diplomats.
+
+Specific arrangements of [behavior configurations](!!!TODO!!!) can be stored as **discrete, reusable [orchestrators](#orchestrators)** (i.e., [specific knowledge entries](#knowledge-files-1) that define [orchestrators](!!!TODO!!!), which are also stored in a dedicated knowledge file for easy reuse). Think of orchestrators as an executive chef guiding a team of specialized chefs, each responsible for a specific course of a multi-course Italian meal (e.g., Aperitivo, Antipasto, Primo, etc.). The objective of the orchestrator is to prepare a multi-course meal based on the request of the event host (the end-user). Once the orchestrator receives the host's request, the orchestrator distributes the work among the necessary configurations of specialized chefs. The host might request an Italian, Chinese, or Ethiopian theme for a five course meal for national leaders, tourists, or cultural event attendees. Different requests require different knowledge, techniques, supplies, equipment, and presentation. Orchestrators can easily handle assigning then validating the results of each behavior configuration before providing a response to the end-user.
+
+Instructions and contextual elements can be stored as **discrete, reusable [prompt templates](#prompt-templates)**, also stored in a dedicated knowledge file. Think of prompt templates as a event hosting manual used by executive chefs (orchestrator) or a meal course plan used by a specialized chef (behavior configuration). Instructions and context within templates can often be tailored depending on the circumstances (e.g., Italian, Chinese, Ethiopian, etc. theme; five- or seven-course meal; for national leaders, tourists, or charity event participants) then assigned to the necessary orchestrator(s), behavioral configuration(s), or directly to the model. 
+
+By leveraging prompt templates, orchestrators, behavioral configurations, along with foundational, basic, intermediate, or advanced IF-LLM elements, users are able to quickly and easily submit requests to consistently accomplish complex objectives given specific priorities requiring multiple tasks, each with unique specifications (e.g. workflows, domains, reasoning, structures, personas, examples). System architects and solution developers can configure, test, refine, and validate prompt templates, orchestrators, behavioral configurations, and other elements based on their scope of interest and expertise, thereby quickly scaling the opportunities available for end-users. By sharing their unique scaffolding elements, architects and developers across our many, widespread, and diverse communities can contribute to a universal, scalable, and maintainable system offering quick and easy prompts that offer safe and reliable responses for users to address a wide variety of needs.
+
+More detailed information about these rules can be found in the [Appendix: IF-LLM  Information](#appendix-if-llm-information) > [Common Elements: Instructions, Context, and Tools](#common-elements-instructions-context-and-tools).
+
+---
+
+#### Prompt Templates
+TBD
+
+
+---
+
+#### Orchestrators
+TBD
+
+
+---
+
+#### Configurations
+TBD
+
+
+---
+
+#### Prompt Elements
+TBD
+
+
+
+- Prompt Templates, Orchestrators, Configurations
+  - Prompt Templates
+  - Orchestrators
+  - Configurations
+  - Prompt Elements
+
+
+
+
+
+
+---
+### Appendix: IF-LLM-BO Developed Solution Anatomy
+TODO
+
+- [Knowledge Files](#knowledge-files)
+  - [Prompt Templates](#prompt-templates) (*copy-and-paste templates illustrating how to use a configuration or orchestrator pattern with existing elements and named variable inputs to accomplish a specified objective and workflow aligned with a particular policy set*)
+  - [Policies](#policies)
+  - [Orchestrators](#orchestrators)
+  - [Configurations](#configurations)
+  - [Elements](#prompt-anatomy)
+    - [Tasks](#task)
+    - [Domains](#domains-1)
+    - [Reasonings](#reasoning)
+    - [Structures](#structure)
+    - [Personas](#persona)
+    - [Examples](#examples)
+- [Tools](#tools)
+
+
+##### Knowledge Files
+TODO
+
+- [Prompt Templates](#prompt-templates)
+- [Policies](#policies)
+  - [Governance](#policies-governance)
+  - [Knowledge Entry](#policies-knowledge-entry)
+  - [Processing](#policies-processing)
+- [Orchestrators](#orchestrators) (*coordinate actions of several configurations to accomplish a particular objective using variable inputs*)
+- [Configurations](#configurations) (*specified combination of prompt elements to accomplish a particular objective and workflow using variable inputs*)
+- [Context Elements](#prompt-anatomy)
+  - [Tasks](#task)
+  - [Domains](#domains-1)
+  - [Reasonings](#reasoning)
+  - [Structures](#structure)
+  - [Personas](#persona)
+  - [Examples](#examples)
+
+
+
+###### Prompt Templates
+TODO
+
+
+###### Policies
+TODO
+
+
+**Governance**  <a name="policies-governance"></a>
+
+TODO
+
+
+**Knowledge Entry** <a name="policies-knowledge-entry"></a>
+
+TODO
+
+
+**Processing** <a name="policies-processing"></a>
+
+TODO
+
+
+
+###### Orchestrators
+TODO
+
+- [Identity & Role](#identity--role)
+- [Priorities](#priorities-2)
+- Required Inputs
+- Task
+  - Objectives
+  - Workflow
+- Success Criteria
+- Failure Modes / Unacceptable Outputs
+- Handoff Packet Schema
+- Validation Gates
+- What to Produce
+- Output Rules/Requirements
+- [Examples](!!!TODO!!!)
+
+
+###### Configurations
+TODO
+
+- [Identity & Role](#identity--role)
+- [Priorities](#priorities-2)
+- [Task](#task)
+- [Domains](#domains-1)
+- [Reasoning](#reasoning)
+- [Structure](#structure)
+- [Persona](#persona)
+- [Examples](#examples)
+
+- 
+##### Tools
+TODO
+
+
+
+
+
+
+
+
+
+---
+
+## **Appendices**
+
+These appendices contain more detailed information and authoritative source references, if applicable, for the Introduction to Instruction-Following Large Language Models eBook.
+  - [Assumptions](!!!TODO!!!)
+  - [Purpose and Objectives](!!!TODO!!!)
+  - [Timeline of Emerging Technology, Knowledge, and Tools](!!!TODO!!!)
+  - [What is an Instruction-Following Large Language Model (IF-LLM)?](!!!TODO!!!)
+  - [Fundamental Elements](!!!TODO!!!)
+  - [Common IF-LLM Failure Modes](!!!TODO!!!)
+  - [Decision-Making Information Quality Criteria (Priorities)](!!!TODO!!!)
+  - [Common IF-LLM Failure Mitigation Strategies](!!!TODO!!!)
+  - [Core Components for Quick, Easy, and Reasonable Results](!!!TODO!!!)
+  - [Comprehensive Architecture for Critical Needs](!!!TODO!!!)
+  - [Introduction to the IF-LLM Behavior Ontology](!!!TODO!!!)
+
+
+---
+
+### Appendix: Assumptions
+
+TODO
+
+
+---
+
+### Timeline of Emerging Technology, Knowledge, and Tools
+
+TODO
+
+
+
+#### Commonly Used IF-LLMs with Usage and Sources
+TODO
+      
+The following is a list of IF-LLMs. This list has been sorted from highest to least estimated global use based on reports during Fall 2025. The list below is the expansion of the previous list in [Foundations > Commonly Used IF-LLM Models](#commonly-used-if-llms).
+
+- **[OpenAI ChatGPT](https://chat.openai.com/)**
+  - Usage
+    - ~5.5–5.8 billion monthly visits
+    - ~46–46.6 billion annual visits
+    - ~80% global chatbot market share
+    - **dominant globally** in both traffic and market share (~60–80% depending on dataset)
+    - **orders of magnitude more usage** than competitors (billions of monthly visits).
+  - Sources
+    - *Exploding Topics*. "65 Most Popular AI Tools Ranked (December 2025)." ([Exploding Topics](https://explodingtopics.com/blog/most-popular-ai-tools)).
+    - *DemandSage*. "Latest Chatbot Statistics 2025 (Market Share & Trends)." ([DemandSage](https://www.demandsage.com/chatbot-statistics/)).
+    - *Statcounter*. "AI Chatbot Market Share Worldwide." ([Statcounter](https://gs.statcounter.com/ai-chatbot-market-share)).
+    - *Visual Capitalist*. "The 10 Most-Used AI Chatbots in 2025." ([Visual Capitalist](https://www.visualcapitalist.com/the-10-most-used-ai-chatbots-in-2025)).
+- **[Google Gemini](https://gemini.google.com/)**
+  - Usage
+    - ~1.3 billion monthly visits
+    - 122 million monthly unique users
+    - rapidly growing daily average user (DAU) share up to ~25% in some markets
+    - consistently **ranked second by traffic and user growth**.
+  - Sources
+    - *DemandSage*. "Latest Chatbot Statistics 2025 (Market Share & Trends)." ([DemandSage](https://www.demandsage.com/chatbot-statistics/)).
+    - *eMarketer*. "Gemini gains ground on ChatGPT with 25% US DAU share as Claude's churn drops". ([eMarketer](https://www.emarketer.com/content/gemini-gains-ground-chatgpt-25-dau-share-claude-churn-drops)).
+    - *DataReportal*. "Digital 2026: More Than 1 Billion People Use AI". ([DataReportal](https://datareportal.com/reports/digital-2026-one-billion-people-using-ai)).
+- **[Perplexity AI](https://www.perplexity.ai/)**
+  - Usage
+    - ~189 million monthly visits
+    - ~7–11% global market share depending on dataset
+  - Sources
+    - *DemandSage*. "Latest Chatbot Statistics 2025 (Market Share & Trends)." ([DemandSage](https://www.demandsage.com/chatbot-statistics/)).
+    - *Statcounter*. "AI Chatbot Market Share Worldwide." ([Statcounter](https://gs.statcounter.com/ai-chatbot-market-share)).
+- **[Microsoft Copilot](https://copilot.microsoft.com/)**
+  - Usage
+    - ~100–150 million monthly users/visits
+    - ~3–10% share depending on metric
+  - Sources
+    - *DemandSage*. "Latest Chatbot Statistics 2025 him (Market Share & Trends)." ([DemandSage](https://www.demandsage.com/chatbot-statistics/)).
+    - *Statcounter*. "AI Chatbot Market Share Worldwide." ([Statcounter](https://gs.statcounter.com/ai-chatbot-market-share)).
+    - *LinkedIn*. "The Top 5 AI Chatbots Rulhim himing 2025: Blending Massive Crowds with Serious Smarts." ([LinkedIn](https://www.linkedin.com/pulse/top-5-ai-chatbots-ruling-2025-blending-massive-crowds-dale-van-blerk-thmff/)).
+- **[Claude (Anthropic)](https://claude.ai/)**
+  - Usage
+    - ~180 million monthly visits
+    - ~1–4% share depending on region
+    - strong enterprise growth
+  - Sources
+    - *DemandSage*. "Latest Chatbot Statistics 2025 (Market Share & Trends)." ([DemandSage](https://www.demandsage.com/chatbot-statistics/)).
+    - *Statcounter*. "AI Chatbot Market Share Worldwide." ([Statcounter](https://gs.statcounter.com/ai-chatbot-market-share)).
+    - *eMarketer*. "Gemini gains ground on ChatGPT with 25% US DAU share as Claude's churn drops". ([eMarketer](https://www.emarketer.com/content/gemini-gains-ground-chatgpt-25-dau-share-claude-churn-drops)).
+- **[Meta AI (Meta Platforms)](https://www.meta.ai/)**
+  - Usage
+    - likely has **very high total reach**, but lack of transparent standalone metrics prevents precise ranking.
+    - widely used via Facebook, Instagram, and WhatsApp integrations
+  - Sources
+    - Andreessen Horowitz. "State of Consumer AI 2025: Product Hits, Misses, and What’s Next." ([Andreessen Horowitz](https://a16z.com/state-of-consumer-ai-2025-product-hits-misses-and-whats-next/)).
+- **[Grok (xAI)](https://grok.x.ai/)**
+  - Usage
+    - ~150–200 million monthly visits estimated 
+    - usage tied to X/Twitter ecosystem
+  - Sources
+    - *Axios*. "ChatGPT is still by far the most popular AI chatbot." ([Axios](https://www.axios.com/2025/09/06/ai-chatbot-popularity)).
+
+
+**NOTES:**
+- ChatGPT and Gemini form the **first-year** IF-LLM Perplexi hosts/developers.
+- Perplexity, Copilot, and Claude form a **second tier** with tens to hundreds of millions of users.
+- Meta AI and Grok are ecosystem-dependent and emerging
+- Interpretation
+  - Ranking is based on **traffic + market share + user estimates combined**, since no single standardized metric exists across all providers.
+- Material Tradeoffs & Limitations (Required Disclosure)
+  - **Metric inconsistency:** Sources mix **visits, unique users, DAUs, and market share**, which are not directly comparable.
+  - **Platform integration bias:** Tools embedded in ecosystems (Google, Microsoft, Meta) may have **underreported or differently measured usage**.
+  - **Timeliness vs. reliability tradeoff:** Using recent (2025–2026) data improves relevance but introduces **variation across datasets and methodologies**.
+  - **Stakeholder impact:** Rankings may influence business or personal tool choices; uncertainty could affect decisions.
+
+
+#### Summary of Authoritative Sources for Commonly Used IF-LLMs
+
+Below is the summary of authoritative sources used to identify commonly used IF-LLMs:
+- Andreessen Horowitz. "State of Consumer AI 2025: Product Hits, Misses, and What’s Next." ([Andreessen Horowitz](https://a16z.com/state-of-consumer-ai-2025-product-hits-misses-and-whats-next/)).
+- *DataReportal*. "Digital 2026: More Than 1 Billion People Use AI". ([DataReportal](https://datareportal.com/reports/digital-2026-one-billion-people-using-ai)).
+- *DemandSage*. "Latest Chatbot Statistics 2025 (Market Share & Trends)." ([DemandSage](https://www.demandsage.com/chatbot-statistics/)).
+- *eMarketer*. "Gemini gains ground on ChatGPT with 25% US DAU share as Claude's churn drops". ([eMarketer](https://www.emarketer.com/content/gemini-gains-ground-chatgpt-25-dau-share-claude-churn-drops)).
+- *Exploding Topics*. "65 Most Popular AI Tools Ranked (December 2025)." ([Exploding Topics](https://explodingtopics.com/blog/most-popular-ai-tools)).
+- *LinkedIn*. "The Top 5 AI Chatbots Ruling 2025: Blending Massive Crowds with Serious Smarts." ([LinkedIn](https://www.linkedin.com/pulse/top-5-ai-chatbots-ruling-2025-blending-massive-crowds-dale-van-blerk-thmff/)).
+- *Statcounter*. "AI Chatbot Market Share Worldwide." ([Statcounter](https://gs.statcounter.com/ai-chatbot-market-share)).
+- *Visual Capitalist*. "The 10 Most-Used AI Chatbots in 2025." ([Visual Capitalist](https://www.visualcapitalist.com/the-10-most-used-ai-chatbots-in-2025)).
+
+
+---
+
+### What is an Instruction-Following Large Language Model (IF-LLM)?
+
+TODO
+
+
+---
+
+### Fundamental Elements
+
+TODO
+
+
+---
+
+### Common IF-LLM Failure Modes
+
+
 #### Common Failure Modes
 TODO
 
@@ -1942,6 +2088,145 @@ TODO
 - Zhou, Jeffrey, et al. *Instruction-Following Evaluation for Large Language Models*. arXiv, 2023, [https://arxiv.org/abs/2311.07911](https://arxiv.org/abs/2311.07911).
 
 
+
+---
+
+### Decision-Making Information Quality Criteria (Priorities) with Definitions and Sources
+
+TODO: Review and Revise
+
+This appendix describes the decision-making information quality criteria and definitions used in the Information-Following Large Language Model Behavior Ontology (IF-LLM-BO) project. This appendix expands on the [Decision-Making Information Quality Criteria (Priorities)](#decision-making-information-quality-criteria-priorities). The criteria and definitions are based on terms used in various [authoritative sources](#summary-of-authoritative-sources-for-decision-making-information-quality-criteria-priorities).
+
+Instruction-following large language models (IF-LLMs) are often used to generate information that influence decisions impacting people and other systems. Because of this, the responses they produce should meet clear and well-defined quality standards. The quality standards listed below identify the key criteria that information should have in order to reliably support decision-making. To produce information that meaningfully supports decisions, IF-LLMs should prioritize these criteria according to their ranked importance. Any trade-offs should be disclosed to users. In turn, the policies and procedures governing IF-LLM-BO systems should be designed to reflect and reinforce these priorities. The criteria listed below are shown in their order of importance; their priorities.
+
+The criteria and definitions presented here are **synthesized from the cited authoritative sources**. Each definition is written to answer a practical question: *“What does this mean for everyday decision-making?”*
+
+- **Auditability:** source of information, how information was changed, and who handled information can be identified.
+  - *Sources*
+    - *Traceability* in **ISO.** *ISO 25012: Software Engineering—Software Product Quality Requirements and Evaluation (SQuaRE)—Data Quality Model.* International Organization for Standardization, 2008.
+- **Relevance:** information matters for the decision being made and helps improve that decision. It connects directly to the question, problem, or goal at hand. Relevant information helps you decide; irrelevant information does not—even if it is interesting or true.
+  - *Sources*
+    - *Relevance* and *Value* in **O’Brien, James A., and George M. Marakas.** *Management Information Systems.* 10th ed., McGraw-Hill/Irwin, 2011.
+    - *Relevance* and *Value-added* in **Wang, Richard Y., and Diane M. Strong.** “Beyond Accuracy: What Data Quality Means to Data Consumers.” *Journal of Management Information Systems*, vol. 12, no. 4, 1996, pp. 5–33.
+    - *Relevance* in **Eppler, Martin J.** *Managing Information Quality: Increasing the Value of Information in Knowledge-Intensive Products and Processes.* Springer, 2006.
+    - *Relevance* and *Significance* in **Paul, Richard, and Linda Elder.** *The Miniature Guide to Critical Thinking: Concepts and Tools.* Foundation for Critical Thinking, 2008.
+- **Timeliness:** information is up to date and available when it is needed. Information that is too old or arrives too late loses its usefulness. Good information comes at the right time—not after the decision is already over.
+  - *Sources*
+    - *Currentness* in **ISO.** *ISO 25012: Software Engineering—Software Product Quality Requirements and Evaluation (SQuaRE)—Data Quality Model.* International Organization for Standardization, 2008.
+    - *Timeliness* in **O’Brien, James A., and George M. Marakas.** *Management Information Systems.* 10th ed., McGraw-Hill/Irwin, 2011.
+    - *Timeliness* in **Wang, Richard Y., and Diane M. Strong.** “Beyond Accuracy: What Data Quality Means to Data Consumers.” *Journal of Management Information Systems*, vol. 12, no. 4, 1996, pp. 5–33.
+    - *Timeliness*, *Up-to-dateness*, and *Frequency* in **Eppler, Martin J.** *Managing Information Quality: Increasing the Value of Information in Knowledge-Intensive Products and Processes.* Springer, 2006.
+- **Accuracy:** information is correct and matches reality. Facts are right, numbers are right, and statements reflect what is actually true. If something is accurate, you can trust that it isn’t wrong, misleading, or made up.
+  - *Sources*
+    - **ISO.** *ISO 25012: Software Engineering—Software Product Quality Requirements and Evaluation (SQuaRE)—Data Quality Model.* International Organization for Standardization, 2008.
+    - **O’Brien, James A., and George M. Marakas.** *Management Information Systems.* 10th ed., McGraw-Hill/Irwin, 2011.
+    - **Wang, Richard Y., and Diane M. Strong.** “Beyond Accuracy: What Data Quality Means to Data Consumers.” *Journal of Management Information Systems*, vol. 12, no. 4, 1996, pp. 5–33.
+    - **Eppler, Martin J.** *Managing Information Quality: Increasing the Value of Information in Knowledge-Intensive Products and Processes.* Springer, 2006.
+    - **Paul, Richard, and Linda Elder.** *The Miniature Guide to Critical Thinking: Concepts and Tools.* Foundation for Critical Thinking, 2008.
+- **Reliability:** information can be trusted to be dependable, honest, and consistent over time. Reliable information is not biased or misleading, comes from a credible source, and holds up when checked or used again.
+  - *Sources*
+    - *Credibility* in **ISO.** *ISO 25012: Software Engineering—Software Product Quality Requirements and Evaluation (SQuaRE)—Data Quality Model.* International Organization for Standardization, 2008.
+    - *Reliability* in **O’Brien, James A., and George M. Marakas.** *Management Information Systems.* 10th ed., McGraw-Hill/Irwin, 2011.
+    - *Objectivity*, *Believability*, and *Reputation* in **Wang, Richard Y., and Diane M. Strong.** “Beyond Accuracy: What Data Quality Means to Data Consumers.” *Journal of Management Information Systems*, vol. 12, no. 4, 1996, pp. 5–33.
+    - *Reliability* in **Eppler, Martin J.** *Managing Information Quality: Increasing the Value of Information in Knowledge-Intensive Products and Processes.* Springer, 2006.
+    - *Fairness* in **Paul, Richard, and Linda Elder.** *The Miniature Guide to Critical Thinking: Concepts and Tools.* Foundation for Critical Thinking, 2008.
+- **Sufficiency:** there is enough information—no important pieces are missing, and there is not unnecessary overload. The amount and level of detail fit the decision. You have what you need to decide, without being overwhelmed or left guessing.
+  - *Sources*
+    - *Completeness* and *Precision* in **ISO.** *ISO 25012: Software Engineering—Software Product Quality Requirements and Evaluation (SQuaRE)—Data Quality Model.* International Organization for Standardization, 2008.
+    - *Completeness* and *Economy* in **O’Brien, James A., and George M. Marakas.** *Management Information Systems.* 10th ed., McGraw-Hill/Irwin, 2011.
+    - *Completeness* and *Appropriate Amount* in **Wang, Richard Y., and Diane M. Strong.** “Beyond Accuracy: What Data Quality Means to Data Consumers.” *Journal of Management Information Systems*, vol. 12, no. 4, 1996, pp. 5–33.
+    - *Completeness*, *Conciseness*, and *Level of Detail* in **Eppler, Martin J.** *Managing Information Quality: Increasing the Value of Information in Knowledge-Intensive Products and Processes.* Springer, 2006.
+    - *Depth*, *Significance*, and *Precision* in **Paul, Richard, and Linda Elder.** *The Miniature Guide to Critical Thinking: Concepts and Tools.* Foundation for Critical Thinking, 2008.
+- **Compliance:** information follows required laws, rules, standards, and policies. It meets formal obligations and expectations. Compliant information plays by the rules it is supposed to follow.
+  - *Source:* **ISO.** *ISO 25012: Software Engineering—Software Product Quality Requirements and Evaluation (SQuaRE)—Data Quality Model.* International Organization for Standardization, 2008.
+- **Clarity:** information is easy to understand, clearly explained, and not confusing. The meaning is obvious without special knowledge or extra interpretation. Clear information makes sense the first time you read or hear it.
+  - *Sources*
+    - *Completeness* and *Precision* in **ISO.** *ISO 25012: Software Engineering—Software Product Quality Requirements and Evaluation (SQuaRE)—Data Quality Model.* International Organization for Standardization, 2008.
+    - *Completeness* and *Economy* in **O’Brien, James A., and George M. Marakas.** *Management Information Systems.* 10th ed., McGraw-Hill/Irwin, 2011.
+    - *Interpretability* and *Ease of Understanding* in **Wang, Richard Y., and Diane M. Strong.** “Beyond Accuracy: What Data Quality Means to Data Consumers.” *Journal of Management Information Systems*, vol. 12, no. 4, 1996, pp. 5–33.
+    - *Clarity* and *Conciseness* in **Eppler, Martin J.** *Managing Information Quality: Increasing the Value of Information in Knowledge-Intensive Products and Processes.* Springer, 2006.
+    - *Clarity* in **Paul, Richard, and Linda Elder.** *The Miniature Guide to Critical Thinking: Concepts and Tools.* Foundation for Critical Thinking, 2008.
+- **Fairness:** information is unbiased, balanced, and considers different perspectives. It is not slanted to favor one group, outcome, or opinion unfairly. Fair information doesn’t “stack the deck” or leave out voices that matter.
+  - *Sources*
+    - *Credibility* in **ISO.** *ISO 25012: Software Engineering—Software Product Quality Requirements and Evaluation (SQuaRE)—Data Quality Model.* International Organization for Standardization, 2008.
+    - *Reliability* and *Flexibility* in **O’Brien, James A., and George M. Marakas.** *Management Information Systems.* 10th ed., McGraw-Hill/Irwin, 2011.
+    - *Objectivity* in **Wang, Richard Y., and Diane M. Strong.** “Beyond Accuracy: What Data Quality Means to Data Consumers.” *Journal of Management Information Systems*, vol. 12, no. 4, 1996, pp. 5–33.
+    - *Fairness* and *Breadth* in **Paul, Richard, and Linda Elder.** *The Miniature Guide to Critical Thinking: Concepts and Tools.* Foundation for Critical Thinking, 2008.
+- **Consistency:** information does not contradict itself and follows the same logic, terms, and structure throughout. Similar things are treated the same way. Consistent information doesn’t change its story halfway through.
+  - *Sources*
+    - *Consistency* in **ISO.** *ISO 25012: Software Engineering—Software Product Quality Requirements and Evaluation (SQuaRE)—Data Quality Model.* International Organization for Standardization, 2008.
+    - *Reliability* in **O’Brien, James A., and George M. Marakas.** *Management Information Systems.* 10th ed., McGraw-Hill/Irwin, 2011.
+    - *Consistent Representation* in **Wang, Richard Y., and Diane M. Strong.** “Beyond Accuracy: What Data Quality Means to Data Consumers.” *Journal of Management Information Systems*, vol. 12, no. 4, 1996, pp. 5–33.
+    - *Consistency* in **Eppler, Martin J.** *Managing Information Quality: Increasing the Value of Information in Knowledge-Intensive Products and Processes.* Springer, 2006.
+    - *Logic* in **Paul, Richard, and Linda Elder.** *The Miniature Guide to Critical Thinking: Concepts and Tools.* Foundation for Critical Thinking, 2008.
+- **Efficiency:** information can be accessed and used with reasonable effort, time, and cost. People can get what they need without unnecessary barriers. Efficient information is easy to find and use without wasting time or energy.
+  - *Sources*
+    - *Accessibility* and *Availability* in **ISO.** *ISO 25012: Software Engineering—Software Product Quality Requirements and Evaluation (SQuaRE)—Data Quality Model.* International Organization for Standardization, 2008.
+    - *Accessibility* in **O’Brien, James A., and George M. Marakas.** *Management Information Systems.* 10th ed., McGraw-Hill/Irwin, 2011.
+    - *Accessibility* in **Wang, Richard Y., and Diane M. Strong.** “Beyond Accuracy: What Data Quality Means to Data Consumers.” *Journal of Management Information Systems*, vol. 12, no. 4, 1996, pp. 5–33.
+    - *Accessibility* in **Eppler, Martin J.** *Managing Information Quality: Increasing the Value of Information in Knowledge-Intensive Products and Processes.* Springer, 2006.
+- **Security:** information is protected from unauthorized access, misuse, or harm. Only the right people can see or change it. Secure information is kept safe from people who should not have it.
+  - *Sources*
+    - *Confidentiality* in **ISO.** *ISO 25012: Software Engineering—Software Product Quality Requirements and Evaluation (SQuaRE)—Data Quality Model.* International Organization for Standardization, 2008.
+    - *Access Security* in **Wang, Richard Y., and Diane M. Strong.** “Beyond Accuracy: What Data Quality Means to Data Consumers.” *Journal of Management Information Systems*, vol. 12, no. 4, 1996, pp. 5–33.
+    - *Security* in **Eppler, Martin J.** *Managing Information Quality: Increasing the Value of Information in Knowledge-Intensive Products and Processes.* Springer, 2006.
+- **Recoverability:** information can be restored if it is lost, damaged, or disrupted. Systems can bounce back after problems. If something goes wrong, the information isn’t gone forever.
+  - *Source:* **ISO.** *ISO 25012: Software Engineering—Software Product Quality Requirements and Evaluation (SQuaRE)—Data Quality Model.* International Organization for Standardization, 2008.
+- **Flexibility:** information can be used in more than one situation or adapted to different needs without losing meaning. Flexible information still works when the situation changes slightly.
+  - *Source:* **O’Brien, James A., and George M. Marakas.** *Management Information Systems.* 10th ed., McGraw-Hill/Irwin, 2011.
+
+
+---
+
+#### Summary of Authoritative Sources for Decision-Making Information Quality Criteria (Priorities)
+
+A summary of the authoritative sources for these information quality criteria appears below:
+- **ISO.** *ISO 25012: Software Engineering—Software Product Quality Requirements and Evaluation (SQuaRE)—Data Quality Model.* International Organization for Standardization, 2008.
+- **O’Brien, James A., and George M. Marakas.** *Management Information Systems.* 10th ed., McGraw-Hill/Irwin, 2011.
+- **Wang, Richard Y., and Diane M. Strong.** “Beyond Accuracy: What Data Quality Means to Data Consumers.” *Journal of Management Information Systems*, vol. 12, no. 4, 1996, pp. 5–33.
+- **Eppler, Martin J.** *Managing Information Quality: Increasing the Value of Information in Knowledge-Intensive Products and Processes.* Springer, 2006.
+- **Paul, Richard, and Linda Elder.** *The Miniature Guide to Critical Thinking: Concepts and Tools.* Foundation for Critical Thinking, 2008.
+
+
+
+---
+
+### Common IF-LLM Failure Mitigation Strategies
+
+TODO
+
+
+---
+
+### Core Components for Quick, Easy, and Reasonable Results
+
+TODO
+
+
+---
+
+### Comprehensive Architecture for Critical Needs
+
+TODO
+
+
+---
+
+### Introduction to the IF-LLM Behavior Ontology
+
+
+---
+
+---
+
+### Appendix: IF-LLM Information
+TODO
+
+
+---
+
+ 
+
 #### Common IF-LLM Failure Mitigation Strategies
 TODO
 
@@ -1952,112 +2237,6 @@ TODO
 ###### Summary of Authoritative Works Cited for Mitigation Strategies for Common IF-LLM Failure Modes
 TODO
 
-
----
-### Appendix: IF-LLM-BO Developed Solution Anatomy
-TODO
-
-- [Knowledge Files](#knowledge-files)
-  - [Prompt Templates](#prompt-templates) (*copy-and-paste templates illustrating how to use a configuration or orchestrator pattern with existing elements and named variable inputs to accomplish a specified objective and workflow aligned with a particular policy set*)
-  - [Policies](#policies)
-  - [Orchestrators](#orchestrators)
-  - [Configurations](#configurations)
-  - [Elements](#prompt-anatomy)
-    - [Tasks](#task)
-    - [Domains](#domains-1)
-    - [Reasonings](#reasoning)
-    - [Structures](#structure)
-    - [Personas](#persona)
-    - [Examples](#examples)
-- [Tools](#tools)
-
-
-##### Knowledge Files
-TODO
-
-- [Prompt Templates](#prompt-templates)
-- [Policies](#policies)
-  - [Governance](#policies-governance)
-  - [Knowledge Entry](#policies-knowledge-entry)
-  - [Processing](#policies-processing)
-- [Orchestrators](#orchestrators) (*coordinate actions of several configurations to accomplish a particular objective using variable inputs*)
-- [Configurations](#configurations) (*specified combination of prompt elements to accomplish a particular objective and workflow using variable inputs*)
-- [Context Elements](#prompt-anatomy)
-  - [Tasks](#task)
-  - [Domains](#domains-1)
-  - [Reasonings](#reasoning)
-  - [Structures](#structure)
-  - [Personas](#persona)
-  - [Examples](#examples)
-
-
-
-###### Prompt Templates
-TODO
-
-
-###### Policies
-TODO
-
-
-**Governance**  <a name="policies-governance"></a>
-
-TODO
-
-
-**Knowledge Entry** <a name="policies-knowledge-entry"></a>
-
-TODO
-
-
-**Processing** <a name="policies-processing"></a>
-
-TODO
-
-
-
-###### Orchestrators
-TODO
-
-- [Identity & Role](#identity--role)
-- [Priorities](#priorities-2)
-- Required Inputs
-- Task
-  - Objectives
-  - Workflow
-- Success Criteria
-- Failure Modes / Unacceptable Outputs
-- Handoff Packet Schema
-- Validation Gates
-- What to Produce
-- Output Rules/Requirements
-- [Examples](!!!TODO!!!)
-
-
-###### Configurations
-TODO
-
-- [Identity & Role](#identity--role)
-- [Priorities](#priorities-2)
-- [Task](#task)
-- [Domains](#domains-1)
-- [Reasoning](#reasoning)
-- [Structure](#structure)
-- [Persona](#persona)
-- [Examples](#examples)
-
-- 
-##### Tools
-TODO
-
-
----
-
-### Appendix: IF-LLM-BO Project Journey
-TODO
-
-
----
 
 #### Expanded Objectives
 TODO
@@ -2475,124 +2654,3 @@ TBD
 **Changelog**
 - 2026-04-12T05:38Z — [Lance Hegland](mailto:lance.hegland@gmail.com): Copied if-llm.md from [if-llm-behavior-ontology repository](https://github.com/LHHegland/if-llm-behavior-ontology) [commit 7414c661233ec5f116c9c31cfc11bd9c43e7f1c7](https://github.com/LHHegland/if-llm-behavior-ontology/commit/7414c661233ec5f116c9c31cfc11bd9c43e7f1c7) to split project scope.
 - 2026-04-12T05:38Z — [Lance Hegland](mailto:lance.hegland@gmail.com): Created repository and README.md from [IF-LLM Development Repository Template](https://github.com/LHHegland/if-llm-dev-repo-template)
-
-
-
-
-
-
-
-
-
-
-
-## NOT YET ORGANIZED
-
-### Instruction Elements (Scaffolding)
-
-The scaffolding so far is as follows:
-- **ontology:** *serves as the semantic root for all model behavior.* The ontology defines the canonical concepts, relationships, and behavior guidance that constitute the instruction-following LLM’s shared semantic foundation.
-  - **meta:** *provides cross-cutting rules and scaffolding about the ontology itself.* Meta captures naming rules, modeling conventions, global decision policies, ontology versioning, glossaries of meta-terms, and core primitives reused across domains.
-  - **tasks:** *defines what the model is expected to do and how success is judged.* Tasks specify objectives, priorities, success criteria, unacceptable outputs, scope boundaries, and workflows, providing explicit guidance on intended outcomes and failure avoidance.
-  - **domains:** *constrain what knowledge space the model may operate within.* Domains describe relevant elements and relationships, in-scope and out-of-scope topics, geographic or contextual boundaries, and known uncertainty zones to reduce ambiguity and hallucination.
-  - **experts:** *shape how the model reasons about the task.* Experts encode reasoning frameworks, heuristics, and analytical lenses that guide interpretation, tradeoffs, and decision-making without prescribing exact answers.
-  - **structures:** *control how outputs are organized and validated.* Structures define required sections, ordering, mandatory and conditional fields, and formatting rules to ensure consistency, completeness, and evaluability of responses.
-  - **personas:** *govern how the model communicates.* Personas specify tone, voice, formality, conciseness, and stylistic constraints, aligning outputs with audience expectations without altering underlying task logic.
-  - **examples:** *demonstrate acceptable patterns of behavior.* Examples pair representative prompts with corresponding results to illustrate desired reasoning, structure, and boundary handling in concrete terms.
-  - **configs:** *compose a complete behavioral profile.* Configurations bind tasks, domains, experts, structures, personas, and examples into a reusable, explicit behavioral setup that enables consistent instruction-following across contexts.
-
-
----
-
-
-### Knowledge Entry Anatomy
-
-- Common Human Reference
-- Canonical Handles
-  - IDs
-  - Namespaced Tags
-- Alias Tags
-- Definition Summary / Purpose
-- Content Specific Fields
-
-### Knowledge File Anatomy
-
-#### File Header
-
-#### Indexes
-- Canonical Handles Index
-- Aliases Index
-
-#### Knowledge Header
-
-##### Knowledge Entries
-
-
-
-### Knowledge Entry Types
-
-#### Meta Entries
-
-## Processing Policies
-### Enforcement & Degradation Handling
-### Instruction Precedence
-### Safety, Privacy, and Refusals
-### Context
-#### Context & Ambiguity Handling
-#### Knowledge & Information Hierarchy
-### Hallucination & Fabrication
-### Defaults
-#### Tasks
-##### Priorities
-##### Identity
-##### Audience
-##### Success Criteria (Quality Bar)
-#### Domains
-##### Deterministic Defaults (US)
-#### Experts
-##### Reasoning & Uncertainty
-#### Tools
-##### Tool Usage
-##### Tool Constraints (Negative Rules)
-#### Structures
-##### Output Structure Sections
-##### Output Structure Flexibility
-
-### Priorities
-TODO: Outline priorities
-
-### Knowledge
-TODO: Outline knowledge, especially types and significance toward objectives and priorities.
-
-### Work in Progress
-this IF-LLM Behavior Ontology (IFLLMBO) is intended to be a lightweight, LLM-legible semantic scaffolding system for organizing knowledge files and entries that ensure tools are more likely to offer results that are more accurate, reliable, relevant, specific, clear, practical, fair, and efficient.
-
-It prioritizes human-readable structure, stable identifiers, and explicit decision guidance over formal ontology rigor, enabling consistent reasoning and behavior across AI-assisted workflows.
-
-Ideation and Exploration
-entries background donations
-Clarify Prompt Parameter Breakdown
-it's
-Meta Knowledge File Policies Processing Policies Tasks Objective Priorities Workflow (Steps) Domains Elements (e.g., knowledge, ability, or skill) Relationships with Other Elements Experts Summary Scope Reasoning Approach and Core Priorities (Ranked) Reasoning Style Judgment Norms Risk Tolerance Evidence Threshold Decision Posture Uncertainty Handling Ethical / Compliance Sensitivity Interaction Guidelines Intended Use Cases Non-Goals Tools (not a knowledge file but a feature of the GPT) Structures Personas
-
-
-
-The scaffolding so far is as follows:
-- **ontology:** *serves as the semantic root for all model behavior.* The ontology defines the canonical concepts, relationships, and behavior guidance that constitute the instruction-following LLM’s shared semantic foundation.
-  - **[knowledge files](#knowledge-files)**
-    - **[policies](#policies):** *provides cross-cutting rules and scaffolding about the ontology itself.*
-      - **[governance](#policies-governance):** other policies requiring human responsibility.
-      - **[knowledge entry](#policies-knowledge-entry):** naming rules, modeling conventions, versioning, and core primitives.
-      - **[processing](#policies-processing):** global decision policies.
-    - **[prompt templates](#prompt-templates):** *offer reusable, copyable prompt pattern templates ensuring more consistent use and improved results.*
-      - **[tasks](#task):** *defines what the model is expected to do and how success is judged.* Tasks specify objectives, priorities, success criteria, unacceptable outputs, scope boundaries, and workflows, providing explicit guidance on intended outcomes and failure avoidance.
-      - **[domains](#domains-1):** *constrain what knowledge space the model may operate within.* Domains describe relevant elements and relationships, in-scope and out-of-scope topics, geographic or contextual boundaries, and known uncertainty zones to reduce ambiguity and hallucination.
-      - **[reasoning](#reasoning):** *shape how the model reasons about the task.* Reasoning encode reasoning frameworks, heuristics, and analytical lenses that guide interpretation, tradeoffs, and decision-making without prescribing exact answers.
-      - **[structures](#structure):** *control how outputs are organized and validated.* Structures define required sections, ordering, mandatory and conditional fields, and formatting rules to ensure consistency, completeness, and evaluability of responses.
-      - **[personas](#persona):** *govern how the model communicates.* Personas specify tone, voice, formality, conciseness, and stylistic constraints, aligning outputs with audience expectations without altering underlying task logic.
-      - **[examples](#examples):** *demonstrate acceptable patterns of behavior.* Examples pair representative prompts with corresponding results to illustrate desired reasoning, structure, and boundary handling in concrete terms.
-    - **[configurations](#configurations):** *compose a complete behavioral profile.* Configurations bind tasks, domains, reasoning, structures, personas, and examples into a reusable, explicit behavioral setup that enables consistent instruction-following across contexts.
-    - **[orchestrators](#orchestrators):** TODO *orchestrates activity across multiple configurations.* Orchestrators coordinate tasks among multiple configurations with unique tasks, domains, reasoning, structures, personas, and examples into a reusable, explicit behavioral setup that enables consistent instruction-following across contexts. Orchestrators validate results between each configuration to improve results.
-
-
-## END NOT YET ORGANIZED
